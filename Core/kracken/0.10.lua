@@ -9,7 +9,7 @@ Version 0.10
 )
 
 whatis("Name: Kraken")
-whatis("Version: 2.2")
+whatis("Version: 0.10")
 whatis("Category: computational biology, taxonomy")
 whatis("Keywords: Biology, Genomics, Taxonomy")
 whatis("URL: https://ccb.jhu.edu/software/kraken")
