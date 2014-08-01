@@ -35,7 +35,7 @@ whatis("Keywords: Graphics, Utility")
 whatis("Description: A library of graphics utilites from the Natl. Center for Atmospheric Research." )
 whatis("URL: http://ngwww.ucar.edu/")
 
---#load("udunits2/2.1","szip/2.1","netcdf/4.3","hdf5/1.8","hdf4/4.2")
+load("udunits2/2.1","szip/2.1","netcdf/4.3","hdf5/1.8","hdf4/4.2")
 
 prepend_path("PATH","/util/opt/NCL/6.0/pgi/11.10/64/bin")
 prepend_path("MANPATH","/util/opt/NCL/6.0/pgi/11.10/64/man")
