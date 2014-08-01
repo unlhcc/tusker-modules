@@ -1,0 +1,46 @@
+help (
+[[
+This module loads the HugeSeq variant
+detection pipeline.
+
+Version 1.0
+]])
+
+whatis("Name: HugeSeq")
+whatis("Version: 1.0")
+whatis("Category: computational biology, genomics")
+whatis("Keywords: Biology, Genomics, High-throughput Sequencing")
+whatis("URL: http://hugeseq.hugolam.com")
+whatis("Description: HugeSeq is a fully integrated system for genome analysis from mapping reads to the identification and annotation of all types of variants: SNPS, Indels and SVs.")
+
+setenv("HUGESEQ_HOME",	"/util/opt/hugeseq/1.0")
+prepend_path("PATH",	"/util/opt/hugeseq/1.0/bin")
+prepend_path("PATH",	"/util/opt/sjm/1.2/gcc/4.4/bin")
+prepend_path("LIBRARY_PATH",	"/util/opt/slurm-drmaa/1.0/gcc/4.4/lib")
+prepend_path("C_INCLUDE_PATH",	"/util/opt/slurm-drmaa/1.0/gcc/4.4/include")
+prepend_path("LD_LIBRARY_PATH",	"/util/opt/slurm-drmaa/1.0/gcc/4.4/lib")
+prepend_path("PATH",	"/util/opt/bwa/0.5.9/gcc/4.4.5/bin")
+setenv("GATK",	"/util/opt/gatk/1.0.5506")
+setenv("PINDEL",	"/util/opt/pindel/0.2.2/gcc/4.4.5")
+setenv("BREAKDANCER",	"/util/opt/breakdancer/1.1/gcc/4.4.5")
+setenv("CNVNATOR",	"/util/opt/cnvnator/0.2.2/gcc/4.4.5")
+setenv("BREAKSEQ",	"/util/opt/breakseq/1.3")
+setenv("ANNOVAR",	"/util/opt/annovar/2012May25")
+prepend_path("PERL5LIB",	"/util/opt/breakdancer/1.1/gcc/4.4.5/perl")
+setenv("PICARD",	"/util/opt/picard-tools/1.3.2")
+prepend_path("PATH",	"/util/opt/picard-tools/1.3.2")
+prepend_path("PATH",	"/util/opt/breakdancer/1.1/gcc/4.4.5/bin")
+prepend_path("PATH",	"/util/opt/samtools/0.1.14/gcc/4.4.5/bin")
+prepend_path("PATH",	"/util/opt/BEDTools/2.12.0/gcc/4.4.5/bin")
+prepend_path("PATH",	"/util/opt/tabix/0.2.5/gcc/4.4.5/bin")
+prepend_path("PATH",	"/util/opt/vcftools/0.1.5/gcc/4.4.5/bin")
+prepend_path("PATH",	"/util/opt/cnvnator/0.2.2/gcc/4.4.5/bin")
+prepend_path("PATH",	"/util/opt/pindel/0.2.2/gcc/4.4.5/bin")
+prepend_path("PATH",	"/util/opt/gatk/1.0.5506")
+prepend_path("PATH",	"/util/opt/breakseq/1.3/bin")
+prepend_path("PATH",	"/util/opt/annovar/2012May25/bin")
+prepend_path("PERL5LIB",	"/util/opt/vcftools/0.1.5/gcc/4.4.5/lib")
+setenv("TMP",	"/work/unmc_ngs/data/tmp")
+setenv("REF",	"/work/unmc_ngs/data/hg19/hg19.fa")
+setenv("SNP",	"/work/unmc_ngs/data/dbsnp_132.hg19.vcf")
+setenv("BPLIB",	"/work/unmc_ngs/data/bplib/bplib.fa")
