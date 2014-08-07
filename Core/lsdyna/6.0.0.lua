@@ -16,7 +16,7 @@ help(help_message,"\n")
 whatis("Name: LS-DYNA")
 whatis("Keywords: Application, Engineering")
 
-load("compiler/pgi/12","openmpi/1.5")
+load("compiler/pgi/12","openmpi/1.6")
 
 
 prepend_path("PATH","/util/opt/lsdyna/r6.0.0/")

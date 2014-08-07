@@ -18,7 +18,7 @@ whatis("URL: http://www.wrf-model.org/index.php")
 -- function for the PATH variable ensures that the netcdf 'ncdump' is first in 
 -- the path instead of the hdf4 one.  
 -- See RT #7945.
-load("compiler/pgi/11","openmpi/1.5","NCL/6.0","NCO/4.1")
+load("compiler/pgi/11","openmpi/1.6","NCL/6.0","NCO/4.1")
 setenv("WRFIO_NCD_LARGE_FILE_SUPPORT", "1")
 setenv("JASPERINC", "/util/opt/jasper/1.900.1/pgi/11/64/include")
 setenv("JASPERLIB", "/util/opt/jasper/1.900.1/pgi/11/64/lib")
