@@ -16,7 +16,7 @@ whatis("Category: compiler")
 whatis("Keywords: System, compiler")
 whatis("URL: http://www.intel.com")
 
-prepend_path("PATH",                "/util/comp/intel/13/bin/intel64")
+prepend_path("PATH",                "/util/comp/intel/13/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/comp/intel/13/lib/intel64")
 prepend_path("LIBRARY_PATH",     "/util/comp/intel/13/lib/intel64")
 prepend_path("MANPATH",             "/util/comp/intel/13//man/en_US")
