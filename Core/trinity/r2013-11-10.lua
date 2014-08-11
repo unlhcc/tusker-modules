@@ -33,4 +33,4 @@ prepend_path("PATH",    	"/util/opt/trinity/r2013-11-10/gcc/4.4/trinity-plugins/
 prepend_path("PATH",    	"/util/opt/trinity/r2013-11-10/gcc/4.4/trinity-plugins/slclust")
 prepend_path("PATH",    	"/util/opt/trinity/r2013-11-10/gcc/4.4/trinity-plugins/transdecoder")
 
-prereq ("bowtie/1.0")
+prereq ("bowtie/1.0.0")
