@@ -4,6 +4,12 @@ Python 2.7
 This module loads the Python environment, built with the GCC
 compilers.
 
+Commonly used installed packages include:
+Numpy
+Scipy
+Matplotlib
+BioPython
+
 ]]
 
 help(help_message,"\n")
