@@ -17,10 +17,10 @@ whatis("Keywords: System, compiler")
 whatis("URL: http://www.intel.com")
 
 prepend_path("PATH",                "/util/comp/intel/12/bin/intel64")
-prepend_path("LD_LIBRARY_PATH",     "/util/comp/intel/12/lib/intel64")
-prepend_path("LIBRARY_PATH",     "/util/comp/intel/12/lib/intel64")
+prepend_path("LD_LIBRARY_PATH",     "/util/comp/intel/12/compiler/lib/intel64")
+prepend_path("LIBRARY_PATH",        "/util/comp/intel/12/compiler/lib/intel64")
 prepend_path("MANPATH",             "/util/comp/intel/12/man/en_US")
-prepend_path("INCLUDE",             "/util/comp/intel/12/include")
+prepend_path("INCLUDE",             "/util/comp/intel/12/compiler/include")
 prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/intel/12")
 
 setenv("CC",	"icc")
