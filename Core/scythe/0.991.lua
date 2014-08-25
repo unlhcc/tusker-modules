@@ -13,3 +13,4 @@ whatis("Description: Scythe - A Bayesian adapter trimmer.")
 whatis("URL: https://github.com/vsbuffalo/scythe")
 
 prepend_path("PATH"       ,"/util/opt/scythe/0.991/gcc/4.4/bin")
+setenv("SCYTHE_HOME",	  "/util/opt/scythe/0.991/gcc/4.4")
