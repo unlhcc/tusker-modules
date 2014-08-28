@@ -17,3 +17,5 @@ whatis("URL: https://pypi.python.org/pypi/HTSeq")
 prepend_path("PATH"		,"/util/opt/HTSeq/0.6.1p1/gcc/4.4/bin")
 prepend_path("PYTHONPATH"       ,"/util/opt/HTSeq/0.6.1p1/gcc/4.4/lib/python2.7/site-packages")
 
+prereq("python/2.7")
+
