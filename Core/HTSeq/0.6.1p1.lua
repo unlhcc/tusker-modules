@@ -14,6 +14,6 @@ whatis("Keywords: Biology, Genomics, High-throughput Sequencing")
 whatis("Description: HTSeq - Analysing high-throughput sequencing data with Python")
 whatis("URL: https://pypi.python.org/pypi/HTSeq")
 
-prepend_path("PATH"		,"/util/opt/htseq/0.6.1p1/gcc/4.4/bin")
-prepend_path("PYTHONPATH"       ,"/util/opt/htseq/0.6.1p1/gcc/4.4/lib/python2.7/site-packages")
+prepend_path("PATH"		,"/util/opt/HTSeq/0.6.1p1/gcc/4.4/bin")
+prepend_path("PYTHONPATH"       ,"/util/opt/HTSeq/0.6.1p1/gcc/4.4/lib/python2.7/site-packages")
 
