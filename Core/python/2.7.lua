@@ -25,6 +25,6 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/python/2.7/gcc/4.4/lib")
 prepend_path("MANPATH",             "/util/opt/python/2.7/gcc/4.4/share/man")
 
 prepend_path("PATH",		"/util/opt/setuptools/5.1/gcc/4.4/bin")
-prepend_path("PYTONPATH",	"/util/opt/setuptools/5.1/gcc/4.4/lib/python2.7/site-packages")
+prepend_path("PYTHONPATH",	"/util/opt/setuptools/5.1/gcc/4.4/lib/python2.7/site-packages")
 
 family("python")
