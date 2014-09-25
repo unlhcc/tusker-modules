@@ -37,6 +37,7 @@ To do this, change the directory Lmod is using from the system-wide one to your
 local repo:
 
 `module unuse /util/opt/modulefiles/Core`
+
 `module use ~/tusker-modules/Core`
 
 Now you can test out any changes local to your account.
@@ -71,6 +72,7 @@ Next, switch to using the `bcrf` branch and do a pull do make sure
 it's up to date:
 
 `git checkout bcrf`
+
 `git pull`
 
 Follow the instructions above for adding any new files, testing any changes,
