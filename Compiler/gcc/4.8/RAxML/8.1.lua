@@ -2,12 +2,12 @@ help(
 [[
 RAxML is a program for sequential and parallel Maximum Likelihood based inference of large phylogenetic trees
 
-Version 8.1.3
+Version 8.1
 ]]
 )
 
 whatis("Name: RAxML")
-whatis("Version: 8.0.20")
+whatis("Version: 8.1")
 whatis("Category: computational biology, phylogeny")
 whatis("Keywords: Biology, Phylogeny")
 whatis("URL: http://sco.h-its.org/exelixis/web/software/raxml/")
