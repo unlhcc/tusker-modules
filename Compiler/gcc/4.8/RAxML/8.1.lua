@@ -2,7 +2,7 @@ help(
 [[
 RAxML is a program for sequential and parallel Maximum Likelihood based inference of large phylogenetic trees
 
-Version 8.0.20
+Version 8.1.3
 ]]
 )
 
@@ -14,5 +14,5 @@ whatis("URL: http://sco.h-its.org/exelixis/web/software/raxml/")
 whatis("Description: RAxML - a generic tool for phylogenetic analysis.")
 
 
-prepend_path("PATH",              "/util/opt/BCRF/RAxML/8.2.20/")
-prepend_path("MANPATH",		  "/util/opt/BCRF/RAxML/8.2.20/")
+prepend_path("PATH",              "/util/opt/BCRF/RAxML/8.1/")
+prepend_path("MANPATH",		  "/util/opt/BCRF/RAxML/8.1/")
