@@ -1,10 +1,8 @@
-help(
-[[
+local help_message = [[
 MAFFT is a program for multiple alignment program for amino acid or nucleotide sequences.
 
 Version 7.1
 ]]
-)
 
 help(help_message,"\n")
 
