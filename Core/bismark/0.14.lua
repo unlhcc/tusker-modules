@@ -34,10 +34,10 @@ whatis("URL: http://www.bioinformatics.bbsrc.ac.uk/projects/bismark/")
 prepend_path("PATH"       ,"/util/opt/BCRF/bismark/0.14/bin")
 pushenv("BISMARK_DOC"	, "/util/opt/BCRF/bismark/0.14/doc")
 
-load("bowtie/1.0")
+load("bowtie/1.0.0")
 
 if (mode() == "load") then
-	LmodMessage("Bismark/0.14.0 with bowtie/1.0 (default). ")
+	LmodMessage("Bismark/0.14.0 with bowtie/1.0.0 (default). ")
 end
 
 
