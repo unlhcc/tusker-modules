@@ -32,5 +32,6 @@ prepend_path("PATH",    	"/util/opt/trinity/r2014-04-13p1/gcc/4.4/trinity-plugin
 prepend_path("PATH",    	"/util/opt/trinity/r2014-04-13p1/gcc/4.4/trinity-plugins/slclust")
 prepend_path("PATH",    	"/util/opt/trinity/r2014-04-13p1/gcc/4.4/trinity-plugins/transdecoder")
 prepend_path("PATH",            "/util/opt/trinity/r2014-04-13p1/gcc/4.4/trinity-plugins/Trimmomatic")
+prepend_path("PERL5LIB",	"/util/opt/trinity/r2014-04-13p1/gcc/4.4/lib64/perl5")
 
 prereq ("bowtie/1.0.0")
