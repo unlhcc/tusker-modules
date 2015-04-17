@@ -11,5 +11,4 @@ whatis("URL: http://www.ncbi.nlm.nih.gov/books/NBK179288/")
 
 prepend_path("PATH"		,"/util/opt/entrezdirect/1.0/edirect")
 
-prereq("edirect/1.0")
-
+family("edirect")
