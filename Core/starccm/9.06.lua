@@ -17,4 +17,4 @@ prepend_path("PATH",                "/util/opt/starccm+/9.06/STAR-CCM+9.06.011/s
 prepend_path("PATH",                "/util/opt/starccm+/9.06/STAR-View+9.06.011")
 setenv      ("CDLMD_LICENSE_FILE",  "1999@flex.cd-adapco.com")
 
-family("starccm+")
+family("starccm")
