@@ -14,4 +14,4 @@ whatis("URL: http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/")
 whatis("Description: Trim sequences")
 
 
-prepend_path("PATH",    "/util/opt/BCRF/trim_galore/0.4/bin")
+prepend_path("PATH",    "/util/opt/BCRF/trim_galore/0.4/bin/")
