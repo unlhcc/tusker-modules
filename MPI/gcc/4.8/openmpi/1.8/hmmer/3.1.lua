@@ -16,11 +16,11 @@ hmmstat
 jackhmmer
 phmmer
 
-Version 3.1b1
+Version 3.1b2
 ]])
 
 whatis("Name: HMMER")
-whatis("Version: 3.1b1")
+whatis("Version: 3.1b2")
 whatis("Category: computational biology, genomics")
 whatis("Keywords: Biology, Bioinformatics, Genomics")
 whatis("Description: HMMER biosequence analysis using profile hidden Markov models")
