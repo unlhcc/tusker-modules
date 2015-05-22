@@ -14,5 +14,5 @@ whatis("Keywords: Biology, Genomics, Alignment")
 whatis("URL: https://github.com/sequencing/NxTrim")
 whatis("Description: nxtrim: Software to remove Nextera Mate Pair adapters and categorise reads according to the orientation implied by the adapter location.")
 
-
+load("compiler/gcc/4.9")
 prepend_path("PATH",              "/util/opt/nxtrim/0.3/gcc/4.4/bin/")
