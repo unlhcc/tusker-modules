@@ -20,5 +20,6 @@ whatis("Description: JAGS is Just Another Gibbs Sampler.")
 
 prepend_path("PATH",              "/util/opt/jags/3.4/gcc/4.9/bin")
 prepend_path("LD_LIBRARY_PATH",   "/util/opt/jags/3.4/gcc/4.9/lib")
+prepend_path("MANPATH",   "/util/opt/jags/3.4/gcc/4.9/share/man")
 
 prereq("acml/6.1")
