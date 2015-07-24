@@ -18,4 +18,4 @@ prepend_path("PATH",                "/util/opt/hdf5/1.8.13/openmpi/1.8/pgi/11/bi
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/hdf5/1.8.13/openmpi/1.8/pgi/11/lib")
 prepend_path("INCLUDE",             "/util/opt/hdf5/1.8.13/openmpi/1.8/pgi/11/include")
 
-family("hdf5")
+family("phdf5")
