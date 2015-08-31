@@ -12,6 +12,7 @@ whatis("Name: pandaseq")
 whatis("Version: 2.9")
 whatis("Category: bioinforomatics, read alignment, overlap sequence")
 whatis("Keywords: Bioinformatics, Illumina, overlapping")
+whatis("Description: PANDASEQ is a program to align Illumina reads, optionally with PCR primers embedded in the sequence, and reconstruct an overlapping sequence.")
 whatis("URL: https://github.com/neufeld/pandaseq/blob/master/README.md")
 
 prepend_path("PATH",                "/util/opt/BCRF/pandaseq/2.9/gcc/4.9/bin")
