@@ -26,5 +26,6 @@ local mkl_doc  = pathJoin("/opt/apps/intel/",cmpV,composer,"Documentation/en_US/
 
 prepend_path(   "MKLROOT",             mkl_base)
 prepend_path(   "INCLUDE",             pathJoin(mkl_base,"include"))
+prepend_path(   "C_INCLUDE_PATH",             pathJoin(mkl_base,"include"))
 prepend_path(   "LD_LIBRARY_PATH",     pathJoin(mkl_base,"lib/em64t"))
 prepend_path(   "LIBRARY_PATH",     pathJoin(mkl_base,"lib/em64t"))
