@@ -42,3 +42,5 @@ prepend_path("LIBRARY_PATH",     "/util/comp/gcc/4.9/lib")
 prepend_path("LIBRARY_PATH",     "/util/comp/gcc/4.9/lib64")
 
 prepend_path("CPATH",             "/util/comp/gcc/4.9/include")
+prepend_path("PKG_CONFIG_PATH",        "/util/comp/gcc/4.9/lib/pkgconfig")
+prepend_path("PKG_CONFIG_PATH",        "/util/comp/gcc/4.9/lib64/pkgconfig")

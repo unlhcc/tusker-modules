@@ -24,3 +24,5 @@ family("R")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/R/3.0/gcc/4.4/lib64")
 prepend_path("LIBRARY_PATH",     "/util/opt/R/3.0/gcc/4.4/lib64/R/lib")
+
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/R/3.0/gcc/4.4/lib64/pkgconfig")

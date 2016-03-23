@@ -24,3 +24,4 @@ prepend_path("INCLUDE",             "/util/opt/jellyfish/2.2/gcc/4.4/include")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/jellyfish/2.2/gcc/4.4/lib")
 prepend_path("CPATH",             "/util/opt/jellyfish/2.2/gcc/4.4/include")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/jellyfish/2.2/gcc/4.4/lib/pkgconfig")
