@@ -23,3 +23,5 @@ family("fftw3")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/fftw3/3.3/gcc/4.9/lib")
 prepend_path("CPATH",     "/util/opt/fftw3/3.3/gcc/4.9/include")
+
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/fftw3/3.3/gcc/4.9/lib/pkgconfig")

@@ -20,3 +20,4 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/imagemagick/5.5/gcc/4.7/lib")
 prepend_path("MANPATH",     	    "/util/opt/imagemagick/5.5/gcc/4.7/man")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/imagemagick/5.5/gcc/4.7/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/imagemagick/5.5/gcc/4.7/lib/pkgconfig")

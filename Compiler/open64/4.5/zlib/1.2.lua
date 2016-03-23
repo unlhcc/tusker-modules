@@ -22,3 +22,4 @@ family("zlib")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/zlib/1.2/open64/4.5/lib")
 prepend_path("CPATH",             "/util/opt/zlib/1.2/open64/4.5/include")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/zlib/1.2/open64/4.5/lib/pkgconfig")

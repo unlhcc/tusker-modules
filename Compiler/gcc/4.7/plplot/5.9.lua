@@ -22,3 +22,4 @@ prepend_path("PYTHONPATH",	    "/util/opt/plplot/5.9/gcc/4.7/lib64/python2.6/sit
 
 prepend_path("LIBRARY_PATH",     "/util/opt/plplot/5.9/gcc/4.7/lib")
 prepend_path("LIBRARY_PATH",     "/util/opt/plplot/5.9/gcc/4.7/lib64")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/plplot/5.9/gcc/4.7/lib/pkgconfig")

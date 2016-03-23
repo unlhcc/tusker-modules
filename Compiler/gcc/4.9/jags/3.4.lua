@@ -25,3 +25,4 @@ prepend_path("MANPATH",   "/util/opt/jags/3.4/gcc/4.9/share/man")
 prereq("acml/6.1")
 
 prepend_path("LIBRARY_PATH",   "/util/opt/jags/3.4/gcc/4.9/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/jags/3.4/gcc/4.9/lib/pkgconfig")

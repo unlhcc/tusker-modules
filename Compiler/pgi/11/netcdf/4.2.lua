@@ -24,3 +24,4 @@ family("netcdf")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/netcdf/4.2/pgi/11/lib")
 prepend_path("CPATH",             "/util/opt/netcdf/4.2/pgi/11/include")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/netcdf/4.2/pgi/11/lib/pkgconfig")
