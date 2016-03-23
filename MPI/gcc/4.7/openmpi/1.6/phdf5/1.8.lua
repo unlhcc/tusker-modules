@@ -22,3 +22,4 @@ prepend_path("INCLUDE",             "/util/opt/hdf5/1.8/openmpi/gcc/4.7/include"
 family("phdf5")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/hdf5/1.8/openmpi/gcc/4.7/lib")
+prepend_path("CPATH",             "/util/opt/hdf5/1.8/openmpi/gcc/4.7/include")
