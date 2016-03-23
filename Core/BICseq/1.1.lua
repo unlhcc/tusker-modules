@@ -17,3 +17,5 @@ prepend_path("PATH"			,"/util/opt/BICseq/1.1/gcc/4.4/BICseq/PERL_pipeline/BICseq
 prepend_path("PATH"			,"/util/opt/BICseq/1.1/gcc/4.4/BICseq/PERL_pipeline/BICseq_1.1.2/SAMgetUnique/samtools-0.1.7a_getUnique-0.1.1")
 prepend_path("LD_LIBRARY_PATH"		,"/util/opt/BICseq/1.1/gcc/4.4/BICseq/PERL_pipeline/BICseq_1.1.2/SAMgetUnique/samtools-0.1.7a_getUnique-0.1.1")
 
+
+prepend_path("LIBRARY_PATH"		,"/util/opt/BICseq/1.1/gcc/4.4/BICseq/PERL_pipeline/BICseq_1.1.2/SAMgetUnique/samtools-0.1.7a_getUnique-0.1.1")

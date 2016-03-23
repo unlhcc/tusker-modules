@@ -24,3 +24,6 @@ prepend_path("MANPATH",		  "/util/opt/cuda/6.0/doc/man")
 setenv("CFLAGS",		  "-I/util/opt/cuda/6.0/include")
 setenv("CPPFLAGS",		  "-I/util/opt/cuda/6.0/include")
 setenv("FFLAGS",                  "-I/util/opt/cuda/6.0/include")
+
+prepend_path("LIBRARY_PATH",   "/util/opt/cuda/6.0/lib64")
+prepend_path("LIBRARY_PATH",   "/util/opt/cuda/6.0/lib")

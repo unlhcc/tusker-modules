@@ -19,3 +19,5 @@ whatis("Description: BamTools provides both a programmer's API and an end-user's
 prepend_path("PATH",              "/util/opt/bamtools/2.3/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",	  "/util/opt/bamtools/2.3/gcc/4.4/lib/bamtools")
 prepend_path("BAMTOOLS_INC",	  "/util/opt/bamtools/2.3/gcc/4.4/include")
+
+prepend_path("LIBRARY_PATH",	  "/util/opt/bamtools/2.3/gcc/4.4/lib/bamtools")

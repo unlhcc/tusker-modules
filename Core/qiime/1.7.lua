@@ -33,3 +33,6 @@ prepend_path("PATH",	"/util/opt/qiime/1.7/gcc/4.7/deps/cytoscape-v2.7.0")
 
 
 load("compiler/gcc/4.7","openmpi/1.6","python/2.7","R/2.15")
+
+prepend_path("LIBRARY_PATH",	"/util/opt/qiime/1.7/gcc/4.7/lib")
+prepend_path("LIBRARY_PATH",	"/util/opt/qiime/1.7/gcc/4.7/deps/lib")

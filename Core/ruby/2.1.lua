@@ -19,3 +19,5 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/ruby/2.1/gcc/4.4/lib")
 prepend_path("MANPATH",             "/util/opt/ruby/2.1/gcc/4.4/share/man")
 
 family("ruby")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/ruby/2.1/gcc/4.4/lib")

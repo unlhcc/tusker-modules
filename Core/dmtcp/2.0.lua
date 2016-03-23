@@ -20,3 +20,5 @@ prepend_path("PATH",                "/util/opt/dmtcp/2.0/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/dmtcp/2.0/gcc/4.4/lib")
 prepend_path("MANPATH",             "/util/opt/dmtcp/2.0/gcc/4.4/share/man")
 prepend_path("INCLUDE",             "/util/opt/dmtcp/2.0/gcc/4.4/include")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/dmtcp/2.0/gcc/4.4/lib")

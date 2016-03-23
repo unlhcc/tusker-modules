@@ -19,3 +19,5 @@ whatis("Description: While TASSEL has changed considerably since its initial pub
 prepend_path("PATH",              "/util/opt/tassel/3")
 prepend_path("LD_LIBRARY_PATH",   "/util/opt/tassel/3/lib")
 
+
+prepend_path("LIBRARY_PATH",   "/util/opt/tassel/3/lib")

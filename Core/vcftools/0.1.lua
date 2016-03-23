@@ -21,3 +21,5 @@ prepend_path("PATH",              "/util/opt/vcftools/0.1/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",   "/util/opt/vcftools/0.1/gcc/4.4/lib")
 prepend_path("PERL5LIB",          "/util/opt/vcftools/0.1/gcc/4.4/lib/perl5/site_perl")
 
+
+prepend_path("LIBRARY_PATH",   "/util/opt/vcftools/0.1/gcc/4.4/lib")

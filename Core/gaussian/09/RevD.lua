@@ -18,3 +18,5 @@ setenv("GAUSS_SCRDIR", "/tmp")
 prepend_path("LD_LIBRARY_PATH","/util/comp/pgi/linux86-64/12/libso")
 
 family("gaussian")
+
+prepend_path("LIBRARY_PATH","/util/comp/pgi/linux86-64/12/libso")

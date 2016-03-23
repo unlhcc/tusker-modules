@@ -20,3 +20,5 @@ prepend_path("PATH",              "/util/opt/tassel/5x")
 prepend_path("LD_LIBRARY_PATH",   "/util/opt/tassel/5x/lib")
 prereq("java/1.8")
 
+
+prepend_path("LIBRARY_PATH",   "/util/opt/tassel/5x/lib")

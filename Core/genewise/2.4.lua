@@ -19,3 +19,5 @@ whatis("Description: The Wise2 form compares a protein sequence to a genomic DNA
 prepend_path("PATH"       ,"/util/opt/genewise/2.4/gcc/4.4/src/bin")
 prepend_path("LD_LIBRARY_PATH",	"/util/opt/genewise/2.4/gcc/4.4/lib64")
 setenv("WISECONFIGDIR"	  ,"/util/opt/genewise/2.4/gcc/4.4/wisecfg")
+
+prepend_path("LIBRARY_PATH",	"/util/opt/genewise/2.4/gcc/4.4/lib64")

@@ -24,3 +24,6 @@ setenv("SASV9_OPTIONS",	"-FILELOCKS NONE")
 setenv("XAUTHORITY",pathJoin(os.getenv("HOME"),".Xauthority"))
 
 pushenv("HOME",	"$WORK")
+
+prepend_path("LIBRARY_PATH",	"/util/opt/sas/9.3/needed_libraries/lib")
+prepend_path("LIBRARY_PATH", "/util/opt/sas/9.3/needed_libraries/usr/lib")

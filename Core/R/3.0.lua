@@ -21,3 +21,6 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/acml/4.4.0/gfortran64_mp/lib")
 prepend_path("MANPATH",             "/util/opt/R/3.0/gcc/4.4/share/man/man1")
 
 family("R")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/R/3.0/gcc/4.4/lib64")
+prepend_path("LIBRARY_PATH",     "/util/opt/R/3.0/gcc/4.4/lib64/R/lib")

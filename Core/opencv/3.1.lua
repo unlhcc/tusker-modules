@@ -18,3 +18,5 @@ prepend_path("INCLUDE",                 "/util/opt/opencv/3.1/gcc/4.4/include")
 
 family("opencv")
 
+
+prepend_path("LIBRARY_PATH",         "/util/opt/opencv/3.1/gcc/4.4/lib")

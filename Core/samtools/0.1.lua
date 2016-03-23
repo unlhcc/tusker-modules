@@ -19,3 +19,5 @@ prepend_path("PATH",              "/util/opt/samtools/0.1/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",	  "/util/opt/samtools/0.1/gcc/4.4/lib")
 prepend_path("MANPATH",		  "/util/opt/samtools/0.1/gcc/4.4/share")
 
+
+prepend_path("LIBRARY_PATH",	  "/util/opt/samtools/0.1/gcc/4.4/lib")

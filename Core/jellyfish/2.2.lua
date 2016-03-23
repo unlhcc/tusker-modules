@@ -21,3 +21,5 @@ prepend_path("PATH",                "/util/opt/jellyfish/2.2/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/jellyfish/2.2/gcc/4.4/lib")
 prepend_path("MANPATH",             "/util/opt/jellyfish/2.2/gcc/4.4/share/man/man1")
 prepend_path("INCLUDE",             "/util/opt/jellyfish/2.2/gcc/4.4/include")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/jellyfish/2.2/gcc/4.4/lib")

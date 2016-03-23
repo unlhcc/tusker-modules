@@ -19,3 +19,6 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/allinea/5.1/lib")
 prepend_path("PATH",                "/util/opt/allinea/reports/5.1/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/allinea/reports/5.1/lib")
 setenv("ALLINEA_TOOLS_CONFIG_DIR","$WORK/.allinea")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/allinea/5.1/lib")
+prepend_path("LIBRARY_PATH",     "/util/opt/allinea/reports/5.1/lib")

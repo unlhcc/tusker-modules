@@ -15,3 +15,5 @@ whatis("URL: http://cufflinks.cbcb.umd.edu/")
 
 prepend_path("PATH",              "/util/opt/cufflinks/2.1.1/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",   "/util/opt/boost/1.51.0/gcc/4.4.5/lib")
+
+prepend_path("LIBRARY_PATH",   "/util/opt/boost/1.51.0/gcc/4.4.5/lib")
