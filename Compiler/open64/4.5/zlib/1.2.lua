@@ -21,3 +21,4 @@ prepend_path("INCLUDE",             "/util/opt/zlib/1.2/open64/4.5/include")
 family("zlib")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/zlib/1.2/open64/4.5/lib")
+prepend_path("CPATH",             "/util/opt/zlib/1.2/open64/4.5/include")

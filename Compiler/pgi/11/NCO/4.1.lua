@@ -22,3 +22,4 @@ prepend_path("INCLUDE",             "/util/opt/NCO/4.1/pgi/11/include")
 family("NCO")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/NCO/4.1/pgi/11/lib")
+prepend_path("CPATH",             "/util/opt/NCO/4.1/pgi/11/include")

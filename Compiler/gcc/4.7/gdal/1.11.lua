@@ -19,3 +19,4 @@ prepend_path("LD_LIBRARY_PATH"	,"/util/opt/gdal/1.11/gcc/4.7/lib")
 prepend_path("PATH"		,"/util/opt/gdal/1.11/gcc/4.7/bin")
 
 prepend_path("LIBRARY_PATH"	,"/util/opt/gdal/1.11/gcc/4.7/lib")
+prepend_path("CPATH"		,"/util/opt/gdal/1.11/gcc/4.7/include")

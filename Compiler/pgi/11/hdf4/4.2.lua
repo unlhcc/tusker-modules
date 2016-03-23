@@ -22,3 +22,4 @@ prepend_path("INCLUDE",             "/util/opt/hdf4/4.2/pgi/11/include")
 family("hdf4")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/hdf4/4.2/pgi/11/lib")
+prepend_path("CPATH",             "/util/opt/hdf4/4.2/pgi/11/include")

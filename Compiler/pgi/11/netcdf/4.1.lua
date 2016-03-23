@@ -23,3 +23,4 @@ prepend_path("INCLUDE",             "/util/opt/netcdf/4.1/pgi/11/64/include")
 family("netcdf")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/netcdf/4.1/pgi/11/64/lib")
+prepend_path("CPATH",             "/util/opt/netcdf/4.1/pgi/11/64/include")
