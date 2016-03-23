@@ -20,3 +20,5 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/netcdf/4.2/openmpi/1.8/pgi/11/lib
 prepend_path("INCLUDE",             "/util/opt/netcdf/4.2/openmpi/1.8/pgi/11/include")
 
 family("pnetcdf")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/netcdf/4.2/openmpi/1.8/pgi/11/lib")
