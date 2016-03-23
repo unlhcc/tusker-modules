@@ -20,3 +20,5 @@ prepend_path("MANPATH",             "/util/opt/udunits/2.1/open64/4.5/share")
 prepend_path("INCLUDE",             "/util/opt/udunits/2.1/open64/4.5/include")
 
 family("udunits2")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/udunits/2.1/open64/4.5/lib")

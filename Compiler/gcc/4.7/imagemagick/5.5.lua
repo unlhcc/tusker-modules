@@ -18,3 +18,5 @@ whatis("Description: ImageMagick® is a software suite to create, edit, compose,
 prepend_path("PATH",                "/util/opt/imagemagick/5.5/gcc/4.7/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/imagemagick/5.5/gcc/4.7/lib")
 prepend_path("MANPATH",     	    "/util/opt/imagemagick/5.5/gcc/4.7/man")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/imagemagick/5.5/gcc/4.7/lib")

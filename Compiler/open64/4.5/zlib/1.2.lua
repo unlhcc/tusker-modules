@@ -19,3 +19,5 @@ prepend_path("MANPATH",             "/util/opt/zlib/1.2/open64/4.5/share/man")
 prepend_path("INCLUDE",             "/util/opt/zlib/1.2/open64/4.5/include")
 
 family("zlib")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/zlib/1.2/open64/4.5/lib")

@@ -15,3 +15,5 @@ whatis("URL: http://pslib.sourceforge.net")
 whatis("Description: pslib is a C-library to create PostScript files on the fly.")
 
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/pslib/0.4/gcc/4.7/lib")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/pslib/0.4/gcc/4.7/lib")

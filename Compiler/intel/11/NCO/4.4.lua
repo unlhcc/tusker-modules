@@ -20,3 +20,5 @@ prepend_path("MANPATH",             "/util/opt/NCO/4.4/intel/11/share/man")
 prepend_path("INCLUDE",             "/util/opt/NCO/4.4/intel/11/include")
 
 family("NCO")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/NCO/4.4/intel/11/lib")

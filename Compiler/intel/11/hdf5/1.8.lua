@@ -20,3 +20,5 @@ prepend_path("MANPATH",             "/util/opt/hdf5/1.8/intel/11/share/man")
 prepend_path("INCLUDE",             "/util/opt/hdf5/1.8/intel/11/include")
 
 family("hdf5")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/hdf5/1.8/intel/11/lib")

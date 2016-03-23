@@ -18,3 +18,5 @@ prepend_path("LIBDIR",                "/util/opt/hdfeos/2.18/intel/12/lib")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/hdfeos/2.18/intel/12/lib")
 
 family("hdfeos")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/hdfeos/2.18/intel/12/lib")

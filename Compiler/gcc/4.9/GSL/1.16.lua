@@ -21,3 +21,5 @@ setenv("GSL_INCLUDE",             "/util/opt/GSL/1.16/gcc/4.9/include")
 setenv("GSL", "/util/opt/GSL/1.16/gcc/4.9") 
 
 family("gsl")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/GSL/1.16/gcc/4.9/lib")

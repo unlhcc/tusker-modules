@@ -26,3 +26,5 @@ prepend_path("INCLUDE",             "/util/opt/openmpi/1.6/gcc/4.7-gpu/include")
 prepend_path("MODULEPATH",	    "/util/opt/modulefiles/MPI/gcc/4.7-gpu/openmpi/1.6")
 
 family("mpi")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/openmpi/1.6/gcc/4.7-gpu/lib")

@@ -19,3 +19,5 @@ prepend_path("INCLUDE",             "/util/opt/szip/2.1/open64/4.5/include")
 
 family("szip")
 
+
+prepend_path("LIBRARY_PATH",     "/util/opt/szip/2.1/open64/4.5/lib")

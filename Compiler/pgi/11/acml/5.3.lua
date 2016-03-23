@@ -19,3 +19,5 @@ setenv("FFLAGS",     "-I/util/opt/acml/5.3/pgi64_fma4/include")
 setenv("CXXFLAGS",     "-I/util/opt/acml/5.3/pgi64_fma4/include")
 setenv("F90FLAGS",     "-I/util/opt/acml/5.3/pgi64_fma4/include")
 setenv("FCFLAGS",     "-I/util/opt/acml/5.3/pgi64_fma4/include")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/acml/5.3/pgi64_fma4/lib")
