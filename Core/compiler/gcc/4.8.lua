@@ -40,3 +40,4 @@ family("compiler")
 
 prepend_path("LIBRARY_PATH",     "/util/comp/gcc/4.8/lib")
 prepend_path("LIBRARY_PATH",     "/util/comp/gcc/4.8/lib64")
+prepend_path("CPATH",             "/util/comp/gcc/4.8/include")

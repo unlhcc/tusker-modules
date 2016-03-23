@@ -38,3 +38,5 @@ setenv("FCFLAGS",        "-msse3")
 
 
 family("compiler")
+
+prepend_path("CPATH",             "/util/comp/intel/11/include")

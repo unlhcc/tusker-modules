@@ -31,3 +31,5 @@ setenv("CXX",	"icpc")
 setenv("INTEL_LICENSE_FILE",    "/util/comp/intel/15/licenses/USE_SERVER.lic")
 
 family("compiler")
+
+prepend_path("CPATH",             "/util/comp/intel/15/include")

@@ -26,3 +26,4 @@ prepend_path("R_LIBS",            "/util/src/CAPmiRSEQ/R_dependencies")
 family("CAPmiRSEQ")
 
 prepend_path("LIBRARY_PATH",   "/util/opt/CAPmiRSEQ/1.0/gcc/4.4/lib")
+prepend_path("CPATH",           "/util/opt/CAPmiRSEQ/1.0/gcc/4.4/include")
