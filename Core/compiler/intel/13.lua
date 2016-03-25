@@ -39,4 +39,3 @@ setenv("FCFLAGS",        "-msse3")
 
 family("compiler")
 
-prepend_path("CPATH",             "/util/comp/intel/13/include")

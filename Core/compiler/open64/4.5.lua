@@ -39,4 +39,3 @@ family("compiler")
 
 prepend_path("LIBRARY_PATH",     "/util/comp/open64/4.5/lib")
 prepend_path("LIBRARY_PATH",     "/util/comp/open64/4.5/lib/gcc-lib/x86_64-open64-linux/4.5.2.1")
-prepend_path("CPATH",             "/util/comp/open64/4.5/include")

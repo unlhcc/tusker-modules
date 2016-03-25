@@ -40,4 +40,3 @@ family("compiler")
 
 prepend_path("LIBRARY_PATH",     "/util/comp/pgi/linux86-64/11/lib")
 prepend_path("LIBRARY_PATH",     "/util/comp/pgi/linux86-64/11/libso")
-prepend_path("CPATH",             "/util/comp/pgi/linux86-64/11/include")

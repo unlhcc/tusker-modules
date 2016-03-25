@@ -40,5 +40,4 @@ family("compiler")
 
 prepend_path("LIBRARY_PATH",     "/util/comp/gcc/4.7/lib")
 prepend_path("LIBRARY_PATH",     "/util/comp/gcc/4.7/lib64")
-prepend_path("CPATH",             "/util/comp/gcc/4.7/include")
 prepend_path("PKG_CONFIG_PATH",        "/util/comp/gcc/4.7/lib/pkgconfig")
