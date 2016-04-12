@@ -13,4 +13,4 @@ whatis("Description: JAMM is a peak finder for NGS datasets (ChIP-Seq, ATAC-Seq,
 whatis("URL: https://github.com/mahmoudibrahim/JAMM")
 
 prepend_path{"PATH"		,"/util/opt/anaconda/2.0/envs/jamm-1.0.7.2/bin",priority=100}
-pushenv("CONDA_DEFAULT_ENV"	,"peakzilla-1.0")
+pushenv("CONDA_DEFAULT_ENV"	,"jamm-1.0.7.2")
