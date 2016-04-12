@@ -13,3 +13,4 @@ whatis("URL: https://bioconductor.org/packages/jmosaics")
 
 prepend_path{"PATH"		,"/util/opt/anaconda/2.0/envs/jmosaics-1.10.0/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"jmosaics-1.10.0")
+family("anaconda")
