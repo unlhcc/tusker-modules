@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-06-17T19:24:03Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-06-17T19:37:32Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
     <ResourceID>tusker.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -4479,11 +4479,37 @@
       <Domain>tools</Domain>
       <Name>intel-mkl</Name>
       <Description>Numerical library, contains blas/lapack</Description>
-      <Flavor>13</Flavor>
+      <Flavor>15</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>intel-mkl/13</HandleKey>
+        <HandleKey>intel-mkl/15</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>tools</Domain>
+      <Name>intel-mkl</Name>
+      <Description>Numerical library, contains blas/lapack</Description>
+      <Flavor>16</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>intel-mkl/16</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>tools</Domain>
+      <Name>intel-mkl</Name>
+      <Description>Numerical library, contains blas/lapack</Description>
+      <Flavor>12</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>intel-mkl/12</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -4505,24 +4531,11 @@
       <Domain>tools</Domain>
       <Name>intel-mkl</Name>
       <Description>Numerical library, contains blas/lapack</Description>
-      <Flavor>15</Flavor>
+      <Flavor>13</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>intel-mkl/15</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>tools</Domain>
-      <Name>intel-mkl</Name>
-      <Description>Numerical library, contains blas/lapack</Description>
-      <Flavor>12</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>intel-mkl/12</HandleKey>
+        <HandleKey>intel-mkl/13</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -5194,11 +5207,11 @@
       <Domain>unknown</Domain>
       <Name>lsdyna</Name>
       <Description />
-      <Flavor>8.0.1</Flavor>
+      <Flavor>8.1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>lsdyna/8.0.1</HandleKey>
+        <HandleKey>lsdyna/8.1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -5246,11 +5259,11 @@
       <Domain>unknown</Domain>
       <Name>lsdyna</Name>
       <Description />
-      <Flavor>8.1.0</Flavor>
+      <Flavor>8.0.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>lsdyna/8.1.0</HandleKey>
+        <HandleKey>lsdyna/8.0.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
