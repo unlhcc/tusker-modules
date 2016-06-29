@@ -12,5 +12,5 @@ whatis("Keywords: Biology, Genomics, Sequencing")
 whatis("Description: SNP Pipeline is a pipeline for the production of SNP matrices from sequence data used in the phylogenetic analysis of pathogenic organisms sequenced from samples of interest to food safety.")
 whatis("URL: http://snp-pipeline.readthedocs.io")
 
-prepend_path{"PATH"		,"/util/opt/anaconda/2.0.1/envs/snp-pipeline-0.6.1/bin",priority=100}
+prepend_path{"PATH"		,"/util/opt/anaconda/2.0/envs/snp-pipeline-0.6.1/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"snp-pipeline-0.6.1")
