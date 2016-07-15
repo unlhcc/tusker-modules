@@ -1,4 +1,4 @@
-`local help_message = [[
+local help_message = [[
 GSL 2.1
 
 This module loads the GSL, built with the GCC
