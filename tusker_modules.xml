@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-07-12T19:14:52Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-07-18T18:25:46Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
     <ResourceID>tusker.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -709,11 +709,11 @@
       <Domain>runtime support</Domain>
       <Name>acml</Name>
       <Description />
-      <Flavor>6.1</Flavor>
+      <Flavor>5.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>acml/6.1</HandleKey>
+        <HandleKey>acml/5.3</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -735,11 +735,11 @@
       <Domain>runtime support</Domain>
       <Name>acml</Name>
       <Description />
-      <Flavor>5.3</Flavor>
+      <Flavor>5.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>acml/5.3</HandleKey>
+        <HandleKey>acml/5.1</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -748,11 +748,11 @@
       <Domain>runtime support</Domain>
       <Name>acml</Name>
       <Description />
-      <Flavor>5.1</Flavor>
+      <Flavor>6.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>acml/5.1</HandleKey>
+        <HandleKey>acml/6.1</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -1119,6 +1119,19 @@
         <HandleKey>libint/1.1</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>images</Domain>
+      <Name>ijg-libjpeg</Name>
+      <Description />
+      <Flavor>9b</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>ijg-libjpeg/9b</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1681,6 +1694,19 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>sickle</Name>
+      <Description>A windowed adaptive trimming tool for FASTQ files using quality</Description>
+      <Flavor>1.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>sickle/1.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
       <Domain>geoscience</Domain>
       <Name>pymeteo</Name>
       <Description>General meteorological routines, skew-T/log-p plotting and working with CM1 model data.</Description>
@@ -1771,6 +1797,19 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>cap3</Name>
+      <Description>CAP3: A DNA Sequence Assembly Program</Description>
+      <Flavor>122107</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cap3/122107</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
       <Name>starccm</Name>
@@ -1795,6 +1834,19 @@
         <HandleKey>starccm/9.06</HandleKey>
       </Handle>
       <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmx</Name>
+      <Description />
+      <Flavor>3.7</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmx/3.7</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1847,6 +1899,45 @@
         <HandleKey>R/3.2</HandleKey>
       </Handle>
       <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>prinseq-lite</Name>
+      <Description>PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data.</Description>
+      <Flavor>0.20</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>prinseq-lite/0.20</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>pnetcdf</Name>
+      <Description />
+      <Flavor>4.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>pnetcdf/4.2</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/11:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>pnetcdf</Name>
+      <Description />
+      <Flavor>4.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>pnetcdf/4.2</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/11:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1928,6 +2019,32 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trimmomatic</Name>
+      <Description>Trimmomatic: A flexible read trimming tool for Illumina NGS data.</Description>
+      <Flavor>0.33</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trimmomatic/0.33</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>mugsy</Name>
+      <Description />
+      <Flavor>v1r2.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mugsy/v1r2.3</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
       <Domain>system</Domain>
       <Name>cmake</Name>
       <Description>tool for generation of files from source</Description>
@@ -1953,17 +2070,17 @@
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>sickle</Name>
-      <Description>A windowed adaptive trimming tool for FASTQ files using quality</Description>
-      <Flavor>1.2</Flavor>
+      <Type>library</Type>
+      <Domain>image</Domain>
+      <Name>luminance-hdr</Name>
+      <Description />
+      <Flavor>2.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>sickle/1.2</HandleKey>
+        <HandleKey>luminance-hdr/2.4</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2005,43 +2122,95 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>cap3</Name>
-      <Description>CAP3: A DNA Sequence Assembly Program</Description>
-      <Flavor>122107</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>hdfeos2</Name>
+      <Description />
+      <Flavor>2.18</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>cap3/122107</HandleKey>
+        <HandleKey>hdfeos2/2.18</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/pgi/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>openmx</Name>
+      <Name>hdfeos2</Name>
       <Description />
-      <Flavor>3.7</Flavor>
+      <Flavor>2.18</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmx/3.7</HandleKey>
+        <HandleKey>hdfeos2/2.18</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.8</Context>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>hdfeos2</Name>
+      <Description />
+      <Flavor>2.18</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>hdfeos2/2.18</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>hdfeos2</Name>
+      <Description />
+      <Flavor>2.18</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>hdfeos2/2.18</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>hdfeos2</Name>
+      <Description />
+      <Flavor>2.18</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>hdfeos2/2.18</HandleKey>
+      </Handle>
+      <Context>compiler/intel/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>prinseq-lite</Name>
-      <Description>PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data.</Description>
-      <Flavor>0.20</Flavor>
+      <Name>metaphlan</Name>
+      <Description>MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data.</Description>
+      <Flavor>1.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>prinseq-lite/0.20</HandleKey>
+        <HandleKey>metaphlan/1.7</HandleKey>
       </Handle>
       <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>big data</Domain>
+      <Name>root</Name>
+      <Description>It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage.</Description>
+      <Flavor>6.06</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>root/6.06</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2070,30 +2239,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>pnetcdf</Name>
-      <Description />
-      <Flavor>4.2</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>phylip</Name>
+      <Description>PHYLIP (the PHYLogeny Inference Package) is a package of programs for inferring phylogenies (evolutionary trees).</Description>
+      <Flavor>3.696</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>pnetcdf/4.2</HandleKey>
+        <HandleKey>phylip/3.696</HandleKey>
       </Handle>
-      <Context>compiler/pgi/11:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>pnetcdf</Name>
-      <Description />
-      <Flavor>4.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>pnetcdf/4.2</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/11:openmpi/1.6</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2137,28 +2293,28 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>trimmomatic</Name>
-      <Description>Trimmomatic: A flexible read trimming tool for Illumina NGS data.</Description>
-      <Flavor>0.33</Flavor>
+      <Name>vcftools</Name>
+      <Description>VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files.</Description>
+      <Flavor>0.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>trimmomatic/0.33</HandleKey>
+        <HandleKey>vcftools/0.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>mugsy</Name>
+      <Type>library</Type>
+      <Domain>images</Domain>
+      <Name>openexr</Name>
       <Description />
-      <Flavor>v1r2.3</Flavor>
+      <Flavor>2.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>mugsy/v1r2.3</HandleKey>
+        <HandleKey>openexr/2.2</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2253,68 +2409,16 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>hdfeos2</Name>
+      <Domain>images</Domain>
+      <Name>libraw</Name>
       <Description />
-      <Flavor>2.18</Flavor>
+      <Flavor>0.17</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>hdfeos2/2.18</HandleKey>
+        <HandleKey>libraw/0.17</HandleKey>
       </Handle>
-      <Context>compiler/pgi/11</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>hdfeos2</Name>
-      <Description />
-      <Flavor>2.18</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>hdfeos2/2.18</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>hdfeos2</Name>
-      <Description />
-      <Flavor>2.18</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>hdfeos2/2.18</HandleKey>
-      </Handle>
-      <Context>compiler/intel/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>hdfeos2</Name>
-      <Description />
-      <Flavor>2.18</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>hdfeos2/2.18</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>hdfeos2</Name>
-      <Description />
-      <Flavor>2.18</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>hdfeos2/2.18</HandleKey>
-      </Handle>
-      <Context>compiler/intel/11</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2436,13 +2540,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>metaphlan</Name>
-      <Description>MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data.</Description>
-      <Flavor>1.7</Flavor>
+      <Name>biosamtools</Name>
+      <Description />
+      <Flavor>1.38</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>metaphlan/1.7</HandleKey>
+        <HandleKey>biosamtools/1.38</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2473,43 +2577,17 @@
       <Context>compiler/gcc/4.9:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>xpclr</Name>
-      <Description>detecting selective sweeps via the differentiation of two populations</Description>
-      <Flavor>1.0</Flavor>
+      <Type>library</Type>
+      <Domain>xml</Domain>
+      <Name>expat</Name>
+      <Description />
+      <Flavor>2.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>xpclr/1.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>phylip</Name>
-      <Description>PHYLIP (the PHYLogeny Inference Package) is a package of programs for inferring phylogenies (evolutionary trees).</Description>
-      <Flavor>3.696</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phylip/3.696</HandleKey>
+        <HandleKey>expat/2.2</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>biopieces</Name>
-      <Description>The Biopieces are a collection of bioinformatics tools that can be pieced together in a very easy and flexible manner to perform both simple and complex tasks.</Description>
-      <Flavor>1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>biopieces/1.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2527,15 +2605,15 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>cutadapt</Name>
-      <Description>Cutadapt removes adapter sequences from DNA high-throughput sequencing data.</Description>
-      <Flavor>1.4</Flavor>
+      <Name>biopieces</Name>
+      <Description>The Biopieces are a collection of bioinformatics tools that can be pieced together in a very easy and flexible manner to perform both simple and complex tasks.</Description>
+      <Flavor>1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>cutadapt/1.4</HandleKey>
+        <HandleKey>biopieces/1.0</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2547,6 +2625,32 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>pandaseq/2.9</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>cutadapt</Name>
+      <Description>Cutadapt removes adapter sequences from DNA high-throughput sequencing data.</Description>
+      <Flavor>1.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cutadapt/1.4</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>images</Domain>
+      <Name>libtiff</Name>
+      <Description />
+      <Flavor>4.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>libtiff/4.0</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -2954,30 +3058,30 @@
       <Context>compiler/pgi/13</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>biosamtools</Name>
+      <Type>library</Type>
+      <Domain>images</Domain>
+      <Name>exiv2</Name>
       <Description />
-      <Flavor>1.38</Flavor>
+      <Flavor>0.25</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>biosamtools/1.38</HandleKey>
+        <HandleKey>exiv2/0.25</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>big data</Domain>
-      <Name>root</Name>
-      <Description>It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage.</Description>
-      <Flavor>6.06</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>xpclr</Name>
+      <Description>detecting selective sweeps via the differentiation of two populations</Description>
+      <Flavor>1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>root/6.06</HandleKey>
+        <HandleKey>xpclr/1.0</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3088,11 +3192,11 @@
       <Domain>mathematics</Domain>
       <Name>jags</Name>
       <Description>JAGS is Just Another Gibbs Sampler.</Description>
-      <Flavor>3.4</Flavor>
+      <Flavor>4.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>jags/3.4</HandleKey>
+        <HandleKey>jags/4.2</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -3101,11 +3205,11 @@
       <Domain>mathematics</Domain>
       <Name>jags</Name>
       <Description>JAGS is Just Another Gibbs Sampler.</Description>
-      <Flavor>4.2</Flavor>
+      <Flavor>3.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>jags/4.2</HandleKey>
+        <HandleKey>jags/3.4</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -4356,6 +4460,19 @@
         <HandleKey>openbugs/3.2</HandleKey>
       </Handle>
       <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>GSL</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>GSL/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6178,17 +6295,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>vcftools</Name>
-      <Description>VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files.</Description>
-      <Flavor>0.1</Flavor>
+      <Type>library</Type>
+      <Domain>images</Domain>
+      <Name>ilmbase</Name>
+      <Description />
+      <Flavor>2.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>vcftools/0.1</HandleKey>
+        <HandleKey>ilmbase/2.2</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
