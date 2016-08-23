@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-08-23T15:30:18Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-08-23T19:03:15Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
     <ResourceID>tusker.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -5766,6 +5766,19 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
+      <Flavor>2.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/2.0</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/6.1</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
       <Flavor>1.8</Flavor>
       <Default>no</Default>
       <Handle>
@@ -5902,7 +5915,7 @@
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>compiler/intel/13</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6013,6 +6026,19 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
+      <Flavor>1.10</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/1.10</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
       <Flavor>1.6</Flavor>
       <Default>no</Default>
       <Handle>
@@ -6020,19 +6046,6 @@
         <HandleKey>openmpi/1.6</HandleKey>
       </Handle>
       <Context>compiler/open64/4.5</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>openmpi</Name>
-      <Description />
-      <Flavor>1.10</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6071,7 +6084,7 @@
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.8</Context>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6091,13 +6104,13 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.6</Flavor>
+      <Flavor>1.10</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.6</HandleKey>
+        <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
-      <Context>compiler/pgi/11</Context>
+      <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6117,13 +6130,13 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.10</Flavor>
+      <Flavor>1.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
+        <HandleKey>openmpi/1.6</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/pgi/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
