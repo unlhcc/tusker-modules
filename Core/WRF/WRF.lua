@@ -25,7 +25,7 @@ setenv("JASPERLIB", "/util/opt/jasper/1.900.1/pgi/11/64/lib")
 
 --Cindy asked for this software RT# 4029
 --prepend_path("PATH",                "/util/opt/cdo/1.5.6.1/pgi/11/bin")
-prepend_path("PATH",                "/util/opt/cdo/1.6/pgi/11/bin/")
+prepend_path("PATH",                "/util/opt/cdo/1.7/pgi/11/bin/")
 --Cindy asked for this software RT# 4259
 prepend_path("PATH",                "/util/opt/wgrib/1.8/pgi/11/bin")
 
