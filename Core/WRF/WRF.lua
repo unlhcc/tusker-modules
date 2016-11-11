@@ -30,6 +30,6 @@ prepend_path("PATH",                "/util/opt/cdo/1.7/pgi/11/bin/")
 prepend_path("PATH",                "/util/opt/wgrib/1.8/pgi/11/bin")
 
 --Cindy asked for this software RT# 6830
-prepend_path("PATH",                "/util/opt/ncview/2.1/pgi/11/bin")
+prepend_path("PATH",                "/util/opt/ncview/2.1.7/pgi/11/bin")
 
 family("WRF")
