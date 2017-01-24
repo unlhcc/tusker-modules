@@ -16,6 +16,6 @@ whatis("URL: http://www.allinea.com")
 
 prepend_path("PATH",                "/util/opt/allinea/4.2/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/allinea/4.2/lib")
-setenv("ALLINEA_TOOLS_CONFIG_DIR","$WORK/.allinea")
+setenv("ALLINEA_TOOLS_CONFIG_DIR",pathJoin(os.getenv("WORK"),".allinea"))
 
 prepend_path("LIBRARY_PATH",     "/util/opt/allinea/4.2/lib")
