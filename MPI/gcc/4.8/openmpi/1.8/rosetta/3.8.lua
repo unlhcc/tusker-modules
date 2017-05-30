@@ -16,6 +16,8 @@ whatis("Keywords: Biology, Molecular dynamics")
 whatis("URL: https://www.rosettacommons.org/software")
 whatis("Description: The Rosetta software suite includes algorithms for computational modeling and analysis of protein structures. It has enabled notable scientific advances in computational biology, including de novo protein design, enzyme design, ligand docking, and structure prediction of biological macromolecules and macromolecular complexes. ")
 
+setenv("ROSETTA3_DB", "/util/opt/BCRF/rosetta/3.8/gcc/4.8/openmpi/1.8/database")
+setenv("ROSETTA_TOOLS", "/util/opt/BCRF/rosetta/3.8/gcc/4.8/openmpi/1.8/tools")
 
 prepend_path("PATH","/util/opt/BCRF/rosetta/3.8/gcc/4.8/openmpi/1.8/bin")
 family("rosetta")
