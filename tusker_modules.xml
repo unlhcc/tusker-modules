@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2017-05-30T15:42:12Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2017-05-30T16:12:32Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
     <ResourceID>tusker.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -3816,13 +3816,13 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>2.1.1</Flavor>
+      <Flavor>1.10.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/2.1</HandleKey>
+        <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -4349,19 +4349,6 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.10.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>openmpi</Name>
-      <Description />
       <Flavor>2.0.1</Flavor>
       <Default>no</Default>
       <Handle>
@@ -4440,6 +4427,19 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
+      <Flavor>1.10.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/1.10</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
       <Flavor>2.1</Flavor>
       <Default>no</Default>
       <Handle>
@@ -4453,11 +4453,11 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.10.2</Flavor>
+      <Flavor>2.1.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
+        <HandleKey>openmpi/2.1</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
@@ -4999,13 +4999,39 @@
       <Domain>System Environment/Base</Domain>
       <Name>boost</Name>
       <Description>Boost provides free peer-reviewed portable C++ source libraries.</Description>
+      <Flavor>1.57</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>boost/1.57</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>System Environment/Base</Domain>
+      <Name>boost</Name>
+      <Description>Boost provides free peer-reviewed portable C++ source libraries.</Description>
       <Flavor>1.59</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>boost/1.59</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9</Context>
+      <Context>compiler/gcc/5.4</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>System Environment/Base</Domain>
+      <Name>boost</Name>
+      <Description>Boost provides free peer-reviewed portable C++ source libraries.</Description>
+      <Flavor>1.64</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>boost/1.64</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/7.1</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -5038,26 +5064,13 @@
       <Domain>System Environment/Base</Domain>
       <Name>boost</Name>
       <Description>Boost provides free peer-reviewed portable C++ source libraries.</Description>
-      <Flavor>1.57</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>boost/1.57</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>System Environment/Base</Domain>
-      <Name>boost</Name>
-      <Description>Boost provides free peer-reviewed portable C++ source libraries.</Description>
       <Flavor>1.59</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>boost/1.59</HandleKey>
       </Handle>
-      <Context>compiler/gcc/6.1</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -5083,7 +5096,7 @@
         <HandleType>module</HandleType>
         <HandleKey>boost/1.59</HandleKey>
       </Handle>
-      <Context>compiler/gcc/5.4</Context>
+      <Context>compiler/gcc/6.1</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -5829,6 +5842,84 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
+      <Name>metacluster</Name>
+      <Description />
+      <Flavor>1.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>metacluster/1.2</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>cometa</Name>
+      <Description />
+      <Flavor>1.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cometa/1.0</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime</Domain>
+      <Name>gap</Name>
+      <Description>GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory.</Description>
+      <Flavor>4.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gap/4.5</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmx</Name>
+      <Description />
+      <Flavor>3.7</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmx/3.7</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>ray</Name>
+      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
+      <Flavor>2.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>ray/2.3</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>ray</Name>
+      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
+      <Flavor>2.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>ray/2.3</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
       <Name>lammps</Name>
       <Description />
       <Flavor>15May15</Flavor>
@@ -5903,84 +5994,6 @@
         <HandleKey>lammps/15May15</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>metacluster</Name>
-      <Description />
-      <Flavor>1.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>metacluster/1.2</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime</Domain>
-      <Name>gap</Name>
-      <Description>GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory.</Description>
-      <Flavor>4.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>gap/4.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>cometa</Name>
-      <Description />
-      <Flavor>1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cometa/1.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>openmx</Name>
-      <Description />
-      <Flavor>3.7</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>openmx/3.7</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>ray</Name>
-      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
-      <Flavor>2.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>ray/2.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>ray</Name>
-      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
-      <Flavor>2.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>ray/2.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
