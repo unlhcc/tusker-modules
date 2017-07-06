@@ -1,16 +1,14 @@
 help (
 [[
-SNPTEST is a program for the analysis of single SNP association in genome-wide studies.
+This module loads SNPTEST.
+Version 2.5.2
 ]])
 
 whatis("Name: SNPTEST")
 whatis("Version: 2.5.2")
-whatis("Category: computational biology, genomics")
-whatis("Keywords:  Biology, Genomics, Alignment, Assembly")
-whatis("Description: SNPTEST is available free to use for academic use only. Please see the LICENCE and also included with the package.")
-whatis("URL: https://mathgen.stats.ox.ac.uk/genetics_software/snptest/snptest.html#introduction")
+whatis("Category: computational biology, snp, gwas")
+whatis("Keywords:  Biology, Genome-Wide Studies, SNP Association")
+whatis("Description: SNPTEST is a program for the analysis of single SNP association in genome-wide studies.")
+whatis("URL: https://mathgen.stats.ox.ac.uk/genetics_software/snptest/snptest.html")
 
-
-prepend_path("PATH"       ,"/util/opt/snptest/2.5/gcc/4.4/")
-
-family("snptest")
+prepend_path("PATH","/util/opt/snptest/2.5/gcc/4.4/")
