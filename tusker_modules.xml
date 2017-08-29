@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2017-08-21T17:00:33Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2017-08-29T17:34:59Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
     <ResourceID>tusker.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -2750,7 +2750,7 @@
       <Domain>computational biology</Domain>
       <Name>fastqc</Name>
       <Description>fastqc - A Quality Control application for FastQ files</Description>
-      <Flavor>0.11.3</Flavor>
+      <Flavor>0.11.5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
@@ -7858,6 +7858,19 @@
       <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>quast</Name>
+      <Description>QUAST. the QUality ASsessment Tool for genome assemblies.</Description>
+      <Flavor>4.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>quast/4.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>quast</Name>
       <Description>QUAST evaluates genome assemblies by computing various metrics.</Description>
       <Flavor>4.4</Flavor>
       <Default>no</Default>
@@ -7871,12 +7884,12 @@
       <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>quast</Name>
-      <Description>QUAST. the QUality ASsessment Tool for genome assemblies.</Description>
-      <Flavor>4.1</Flavor>
+      <Description>QUAST evaluates genome assemblies by computing various metrics.</Description>
+      <Flavor>4.5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>quast/4.1</HandleKey>
+        <HandleKey>quast/4.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
