@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2017-10-17T20:39:47Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2017-10-24T16:09:13Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
     <ResourceID>tusker.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -121,19 +121,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>kracken</Name>
-      <Description>Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies.</Description>
-      <Flavor>0.10</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>kracken/0.10</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>tool</Domain>
       <Name>aria2</Name>
       <Description>aria2 is a lightweight multi-protocol &amp; multi-source command-line download utility. </Description>
@@ -142,6 +129,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>aria2/1.23</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>kraken</Name>
+      <Description>Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies.</Description>
+      <Flavor>1.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>kraken/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
