@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2017-10-24T16:09:13Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2017-10-26T15:53:55Z" UniqueID="localsoft4.tusker.tacc.xsede.org">
     <ResourceID>tusker.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -1161,27 +1161,92 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>data analysis</Domain>
-      <Name>asreml</Name>
-      <Description>ASReml</Description>
-      <Flavor>3.0</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>0.12.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>asreml/3.0</HandleKey>
+        <HandleKey>bowtie/0.12.8</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>data analysis</Domain>
-      <Name>asreml</Name>
-      <Description>ASReml</Description>
-      <Flavor>4.1</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>1.0.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>asreml/4.1</HandleKey>
+        <HandleKey>bowtie/1.0.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>0.12.9</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>bowtie/0.12.9</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>1.1.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>bowtie/1.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>2.2.6</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>bowtie/2.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>2.1.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>bowtie/2.1.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>2.0.0-beta6</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>bowtie/2.0.0-beta6</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1239,27 +1304,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Utilities</Domain>
-      <Name>automake</Name>
-      <Description>Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.</Description>
-      <Flavor>1.15</Flavor>
+      <Domain>biology</Domain>
+      <Name>r-vcfr</Name>
+      <Description>A package to manipulate and visualize VCF data in R.</Description>
+      <Flavor>1.5.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>automake/1.15</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>Utilities</Domain>
-      <Name>automake</Name>
-      <Description>Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.</Description>
-      <Flavor>1.14</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>automake/1.14</HandleKey>
+        <HandleKey>r-vcfr/1.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1758,15 +1810,15 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>biological computation</Domain>
-      <Name>biopython</Name>
-      <Description>Biopython is a set of freely available tools for biological computation written in Python by an international team of developers.</Description>
-      <Flavor>1.70</Flavor>
+      <Type>application</Type>
+      <Domain>tool</Domain>
+      <Name>lynx</Name>
+      <Description>Lynx is a text browser for the World Wide Web.</Description>
+      <Flavor>2.8.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>biopython/1.70</HandleKey>
+        <HandleKey>lynx/2.8</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1863,14 +1915,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Utilities</Domain>
-      <Name>autoconf</Name>
-      <Description>Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.</Description>
-      <Flavor>2.69</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>mutect</Name>
+      <Description>MuTect is a method developed at the Broad Institute for the reliable and accurate identification of somatic point mutations in next generation sequencing data of cancer genomes.</Description>
+      <Flavor>1.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>autoconf/2.69</HandleKey>
+        <HandleKey>mutect/1.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -5581,14 +5633,53 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Utilities</Domain>
-      <Name>m4</Name>
-      <Description>GNU M4 is an implementation of the traditional Unix macro processor.</Description>
-      <Flavor>1.4</Flavor>
+      <Domain>system</Domain>
+      <Name>anaconda</Name>
+      <Description />
+      <Flavor>3.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>m4/1.4</HandleKey>
+        <HandleKey>anaconda/3.4</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>anaconda</Name>
+      <Description />
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>anaconda/3.3</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>anaconda</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>anaconda/4.3</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>anaconda</Name>
+      <Description />
+      <Flavor>2.7</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>anaconda/2.7</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -5608,13 +5699,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>BICseq</Name>
-      <Description>BIC-seq can accurately and efficiently identify CNVs via minimizing the Bayesian information criterion.</Description>
-      <Flavor>1.1.2</Flavor>
+      <Name>phymmbl</Name>
+      <Description>PhymmBL - Taxonomic Classification of Metagenomic Short Reads.</Description>
+      <Flavor>4.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>BICseq/1.1</HandleKey>
+        <HandleKey>phymmbl/4.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -5737,14 +5828,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>gem</Name>
-      <Description>GEM: High resolution peak calling and motif discovery for ChIP-seq and ChIP-exo data.</Description>
-      <Flavor>2.7</Flavor>
+      <Domain>network</Domain>
+      <Name>curl</Name>
+      <Description />
+      <Flavor>7.50</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gem/2.7</HandleKey>
+        <HandleKey>curl/7.50</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -5814,19 +5905,6 @@
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>life sciences</Domain>
-      <Name>transrate</Name>
-      <Description>transrate - Quality assessment and comparison of transcriptome assemblies</Description>
-      <Flavor>0.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>transrate/0.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>library</Type>
       <Domain>image editing</Domain>
       <Name>imagemagick</Name>
@@ -5849,6 +5927,32 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>imagemagick/6.8</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>life sciences</Domain>
+      <Name>transrate</Name>
+      <Description>transrate - Quality assessment and comparison of transcriptome assemblies</Description>
+      <Flavor>0.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>transrate/0.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>biology</Domain>
+      <Name>allpathslg</Name>
+      <Description />
+      <Flavor>Latest</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>allpathslg/latest</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
@@ -5931,15 +6035,15 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>biology</Domain>
-      <Name>allpathslg</Name>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>proj</Name>
       <Description />
-      <Flavor>Latest</Flavor>
+      <Flavor>4.9</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>allpathslg/latest</HandleKey>
+        <HandleKey>proj/4.9</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
@@ -5968,19 +6072,6 @@
         <HandleKey>starccm/9.06</HandleKey>
       </Handle>
       <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>proj</Name>
-      <Description />
-      <Flavor>4.9</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>proj/4.9</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -6050,6 +6141,19 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
+      <Name>snpeff</Name>
+      <Description>Genetic variant annotation and effect prediction toolbox.</Description>
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>snpeff/4.3</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
       <Name>SRAtoolkit</Name>
       <Description>SRA Toolkit</Description>
       <Flavor>2.8</Flavor>
@@ -6074,19 +6178,6 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>phymmbl</Name>
-      <Description>PhymmBL - Taxonomic Classification of Metagenomic Short Reads.</Description>
-      <Flavor>4.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phymmbl/4.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
       <Name>openmx</Name>
@@ -6101,6 +6192,32 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>salmon</Name>
+      <Description>Highly-accurate &amp; wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments.</Description>
+      <Flavor>0.6.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>salmon/0.6</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>salmon</Name>
+      <Description>Highly-accurate &amp; wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments.</Description>
+      <Flavor>0.8.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>salmon/0.8</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
       <Domain>system</Domain>
       <Name>cmake</Name>
       <Description>tool for generation of files from source</Description>
@@ -6111,45 +6228,6 @@
         <HandleKey>cmake/2.8</HandleKey>
       </Handle>
       <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phonopy</Name>
-      <Description />
-      <Flavor>1.11.12</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phonopy/1.11</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>kaiju</Name>
-      <Description />
-      <Flavor>1.4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>kaiju/1.4</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>Bioinformatics</Domain>
-      <Name>kaiju</Name>
-      <Description />
-      <Flavor>1.5.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>kaiju/1.5</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6178,6 +6256,45 @@
       <Context>compiler/gcc/4.9:openmpi/1.10</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>kaiju</Name>
+      <Description />
+      <Flavor>1.4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>kaiju/1.4</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Bioinformatics</Domain>
+      <Name>kaiju</Name>
+      <Description />
+      <Flavor>1.5.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>kaiju/1.5</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>mixture modeling for taxonomic analysis of metagenomes</Domain>
+      <Name>taxytoolbox</Name>
+      <Description />
+      <Flavor>1.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>taxytoolbox/1.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>phrap</Name>
@@ -6204,17 +6321,30 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>mixture modeling for taxonomic analysis of metagenomes</Domain>
-      <Name>taxytoolbox</Name>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>pnetcdf</Name>
       <Description />
-      <Flavor>1.0</Flavor>
+      <Flavor>4.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>taxytoolbox/1.0</HandleKey>
+        <HandleKey>pnetcdf/4.2</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/pgi/11:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>pnetcdf</Name>
+      <Description />
+      <Flavor>4.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>pnetcdf/4.2</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/11:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -6258,28 +6388,171 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>pnetcdf</Name>
+      <Name>szip</Name>
       <Description />
-      <Flavor>4.2</Flavor>
+      <Flavor>2.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>pnetcdf/4.2</HandleKey>
+        <HandleKey>szip/2.1</HandleKey>
       </Handle>
-      <Context>compiler/pgi/11:openmpi/1.6</Context>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>pnetcdf</Name>
+      <Name>szip</Name>
       <Description />
-      <Flavor>4.2</Flavor>
+      <Flavor>2.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>pnetcdf/4.2</HandleKey>
+        <HandleKey>szip/2.1</HandleKey>
       </Handle>
-      <Context>compiler/pgi/11:openmpi/1.8</Context>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/intel/11</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/open64/4.5</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/11</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/intel/15</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/14</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/15</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -6310,32 +6583,6 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>ray</Name>
-      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
-      <Flavor>2.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>ray/2.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>ray</Name>
-      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
-      <Flavor>2.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>ray/2.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
       <Name>flash</Name>
       <Description>FLASH (Fast Length Adjustment of SHort reads) is a very fast and accurate software tool to merge paired-end reads from next-generation sequencing experiments. FLASH is designed to merge pairs of reads when the original DNA fragments are shorter than twice the length of reads. The resulting longer reads can significantly improve genome assemblies. They can also improve transcriptome assembly when FLASH is used to merge RNA-seq data.</Description>
       <Flavor>1.2.11</Flavor>
@@ -6343,6 +6590,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>flash/1.2</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>spglib</Name>
+      <Description />
+      <Flavor>1.9.9</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>spglib/1.9</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -6361,14 +6621,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>spglib</Name>
+      <Domain>images</Domain>
+      <Name>libtiff</Name>
       <Description />
-      <Flavor>1.9.9</Flavor>
+      <Flavor>4.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>spglib/1.9</HandleKey>
+        <HandleKey>libtiff/4.0</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -6425,19 +6685,6 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>images</Domain>
-      <Name>libtiff</Name>
-      <Description />
-      <Flavor>4.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>libtiff/4.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>phylip</Name>
@@ -6449,19 +6696,6 @@
         <HandleKey>phylip/3.696</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>biodata</Name>
-      <Description>Static data resources for bioinformatics/computational biology.</Description>
-      <Flavor>1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>biodata/1.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6478,14 +6712,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>tool</Domain>
-      <Name>globus-cli</Name>
-      <Description>Command line clients provide an interface to Globus services from the shell, and are suited for both interactive use and simple scripting use cases.</Description>
-      <Flavor>1.2.0</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>biodata</Name>
+      <Description>Static data resources for bioinformatics/computational biology.</Description>
+      <Flavor>1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>globus-cli/1.2</HandleKey>
+        <HandleKey>biodata/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -6517,14 +6751,40 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>mugsy</Name>
-      <Description />
-      <Flavor>v1r2.3</Flavor>
+      <Domain>tool</Domain>
+      <Name>globus-cli</Name>
+      <Description>Command line clients provide an interface to Globus services from the shell, and are suited for both interactive use and simple scripting use cases.</Description>
+      <Flavor>1.2.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>mugsy/v1r2.3</HandleKey>
+        <HandleKey>globus-cli/1.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>picard</Name>
+      <Description>A set of Java command line tools for manipulating high-throughput sequencing data (HTS) data and formats. </Description>
+      <Flavor>1.139</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>picard/1.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>picard</Name>
+      <Description>A set of Java command line tools for manipulating high-throughput sequencing data (HTS) data and formats. </Description>
+      <Flavor>2.9.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>picard/2.9</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -6555,19 +6815,6 @@
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime</Domain>
-      <Name>gap</Name>
-      <Description>GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory.</Description>
-      <Flavor>4.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>gap/4.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>application</Type>
       <Domain>genotyping</Domain>
       <Name>CNVnator</Name>
@@ -6579,6 +6826,19 @@
         <HandleKey>CNVnator/0.3</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime</Domain>
+      <Name>gap</Name>
+      <Description>GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory.</Description>
+      <Flavor>4.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gap/4.5</HandleKey>
+      </Handle>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -6635,6 +6895,19 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
+      <Name>gtool</Name>
+      <Description>GTOOL is a program for transforming sets of genotype data for use with the programs SNPTEST and IMPUTE.</Description>
+      <Flavor>0.7.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gtool/0.7</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/6.1</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
       <Name>prinseq-lite</Name>
       <Description>PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data.</Description>
       <Flavor>0.20.4</Flavor>
@@ -6674,15 +6947,15 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>gtool</Name>
-      <Description>GTOOL is a program for transforming sets of genotype data for use with the programs SNPTEST and IMPUTE.</Description>
-      <Flavor>0.7.5</Flavor>
+      <Name>rmblast</Name>
+      <Description>RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite. The primary difference between this distribution and the NCBI distribution is the addition of a new program &apos;rmblastn&apos; for use with RepeatMasker and RepeatModeler.</Description>
+      <Flavor>2.28</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gtool/0.7</HandleKey>
+        <HandleKey>rmblast/2.28</HandleKey>
       </Handle>
-      <Context>compiler/gcc/6.1</Context>
+      <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -6752,15 +7025,15 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>rmblast</Name>
-      <Description>RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite. The primary difference between this distribution and the NCBI distribution is the addition of a new program &apos;rmblastn&apos; for use with RepeatMasker and RepeatModeler.</Description>
-      <Flavor>2.28</Flavor>
+      <Name>mugsy</Name>
+      <Description />
+      <Flavor>v1r2.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>rmblast/2.28</HandleKey>
+        <HandleKey>mugsy/v1r2.3</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.8</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -6816,32 +7089,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>picard</Name>
-      <Description>A set of Java command line tools for manipulating high-throughput sequencing data (HTS) data and formats. </Description>
-      <Flavor>1.139</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>picard/1.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>picard</Name>
-      <Description>A set of Java command line tools for manipulating high-throughput sequencing data (HTS) data and formats. </Description>
-      <Flavor>2.9.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>picard/2.9</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>chip-seq</Domain>
       <Name>hiddendomains</Name>
       <Description>hiddenDomains is a suite of programs used to identify significant enrichment of ChIP-seq reads that span large domains.</Description>
@@ -6850,19 +7097,6 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>hiddendomains/2.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>MEME</Name>
-      <Description>The MEME suite is a collection of tools for the discovery and analysis of sequence motifs. It is hosted at http://meme-suite.org/.</Description>
-      <Flavor>4.11.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>MEME/4.11</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -6934,6 +7168,19 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
+      <Name>MEME</Name>
+      <Description>The MEME suite is a collection of tools for the discovery and analysis of sequence motifs. It is hosted at http://meme-suite.org/.</Description>
+      <Flavor>4.11.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>MEME/4.11</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
       <Name>treemix</Name>
       <Description>TreeMix is a method for inferring the patterns of population splits and mixtures in the history of a set of populations.</Description>
       <Flavor>1.12</Flavor>
@@ -6954,6 +7201,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>treemix/1.13</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>gem</Name>
+      <Description>GEM: High resolution peak calling and motif discovery for ChIP-seq and ChIP-exo data.</Description>
+      <Flavor>2.7</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gem/2.7</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7024,14 +7284,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>tool</Domain>
-      <Name>lynx</Name>
-      <Description>Lynx is a text browser for the World Wide Web.</Description>
-      <Flavor>2.8.8</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>hugeseq</Name>
+      <Description>HugeSeq is a fully integrated system for genome analysis from mapping reads to the identification and annotation of all types of variants: SNPS, Indels and SVs.</Description>
+      <Flavor>1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>lynx/2.8</HandleKey>
+        <HandleKey>hugeseq/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7064,13 +7324,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>hugeseq</Name>
-      <Description>HugeSeq is a fully integrated system for genome analysis from mapping reads to the identification and annotation of all types of variants: SNPS, Indels and SVs.</Description>
-      <Flavor>1.0</Flavor>
+      <Name>simrna</Name>
+      <Description>SimRNA is a tool for simulations of RNA conformational dynamics</Description>
+      <Flavor>3.20</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>hugeseq/1.0</HandleKey>
+        <HandleKey>simrna/3.20</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7129,13 +7389,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>tabix</Name>
-      <Description>Tabix indexes a TAB-delimited genome position file in.tab.bgz and creates an index file.</Description>
-      <Flavor>0.2</Flavor>
+      <Name>snptest</Name>
+      <Description>SNPTEST is a program for the analysis of single SNP association in genome-wide studies.</Description>
+      <Flavor>2.5.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tabix/0.2</HandleKey>
+        <HandleKey>snptest/2.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7167,14 +7427,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>simrna</Name>
-      <Description>SimRNA is a tool for simulations of RNA conformational dynamics</Description>
-      <Flavor>3.20</Flavor>
+      <Domain>unknown</Domain>
+      <Name>emacs</Name>
+      <Description />
+      <Flavor>24.5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>simrna/3.20</HandleKey>
+        <HandleKey>emacs/24.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7427,14 +7687,27 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>emacs</Name>
-      <Description />
-      <Flavor>24.5</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>gmap</Name>
+      <Description>GMAP: A Genomic Mapping and Alignment Program for mRNA and EST Sequences, and GSNAP: Genomic Short-read Nucleotide Alignment Program.</Description>
+      <Flavor>2015.12.31</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>emacs/24.5</HandleKey>
+        <HandleKey>gmap/2015.12.31</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>gmap</Name>
+      <Description>GMAP: A Genomic Mapping and Alignment Program for mRNA and EST Sequences, and GSNAP: Genomic Short-read Nucleotide Alignment Program.</Description>
+      <Flavor>2017.05.08</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gmap/2017.05.08</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7467,41 +7740,28 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>gmap</Name>
-      <Description>GMAP: A Genomic Mapping and Alignment Program for mRNA and EST Sequences, and GSNAP: Genomic Short-read Nucleotide Alignment Program.</Description>
-      <Flavor>2015.12.31</Flavor>
+      <Name>metaphlan</Name>
+      <Description>MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data.</Description>
+      <Flavor>1.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gmap/2015.12.31</HandleKey>
+        <HandleKey>metaphlan/1.7</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>gmap</Name>
-      <Description>GMAP: A Genomic Mapping and Alignment Program for mRNA and EST Sequences, and GSNAP: Genomic Short-read Nucleotide Alignment Program.</Description>
-      <Flavor>2017.05.08</Flavor>
+      <Domain>metagenomic phylogenetic analysis</Domain>
+      <Name>metaphlan</Name>
+      <Description>MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data.</Description>
+      <Flavor>2.6.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gmap/2017.05.08</HandleKey>
+        <HandleKey>metaphlan/2.6</HandleKey>
       </Handle>
       <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>biopieces</Name>
-      <Description>The Biopieces are a collection of bioinformatics tools that can be pieced together in a very easy and flexible manner to perform both simple and complex tasks.</Description>
-      <Flavor>1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>biopieces/1.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -7539,6 +7799,32 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>cufflinks/2.1.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>data analysis</Domain>
+      <Name>asreml</Name>
+      <Description>ASReml</Description>
+      <Flavor>3.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>asreml/3.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>data analysis</Domain>
+      <Name>asreml</Name>
+      <Description>ASReml</Description>
+      <Flavor>4.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>asreml/4.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7596,14 +7882,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>biosamtools</Name>
+      <Domain>system</Domain>
+      <Name>ruby</Name>
       <Description />
-      <Flavor>1.38</Flavor>
+      <Flavor>2.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>biosamtools/1.38</HandleKey>
+        <HandleKey>ruby/2.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7623,39 +7909,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>idr</Name>
-      <Description>The IDR (Irreproducible Discovery Rate) framework is a uni&#239;&#172;&#129;ed approach to measure the reproducibility of &#239;&#172;&#129;ndings identi&#239;&#172;&#129;ed from replicate experiments and provide highly stable thresholds based on reproducibility.</Description>
-      <Flavor>2.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>idr/2.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>ruby</Name>
+      <Name>biosamtools</Name>
       <Description />
-      <Flavor>2.1</Flavor>
+      <Flavor>1.38</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>ruby/2.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>maq</Name>
-      <Description>maq - Mapping and Assembly with Quality.</Description>
-      <Flavor>0.7</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>maq/0.7</HandleKey>
+        <HandleKey>biosamtools/1.38</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7675,13 +7935,39 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>breakseq2</Name>
-      <Description>BreakSeq2: Ultrafast and accurate nucleotide-resolution analysis of structural variants.</Description>
-      <Flavor>2.2</Flavor>
+      <Name>maq</Name>
+      <Description>maq - Mapping and Assembly with Quality.</Description>
+      <Flavor>0.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>breakseq2/2.2</HandleKey>
+        <HandleKey>maq/0.7</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Utilities</Domain>
+      <Name>m4</Name>
+      <Description>GNU M4 is an implementation of the traditional Unix macro processor.</Description>
+      <Flavor>1.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>m4/1.4</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>oases</Name>
+      <Description>Oases - De novo transcriptome assembler for very short reads.</Description>
+      <Flavor>0.2.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>oases/0.2.8</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7753,65 +8039,26 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>oases</Name>
-      <Description>Oases - De novo transcriptome assembler for very short reads.</Description>
-      <Flavor>0.2.8</Flavor>
+      <Name>breakseq2</Name>
+      <Description>BreakSeq2: Ultrafast and accurate nucleotide-resolution analysis of structural variants.</Description>
+      <Flavor>2.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>oases/0.2.8</HandleKey>
+        <HandleKey>breakseq2/2.2</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>anaconda</Name>
-      <Description />
-      <Flavor>3.4</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>BICseq</Name>
+      <Description>BIC-seq can accurately and efficiently identify CNVs via minimizing the Bayesian information criterion.</Description>
+      <Flavor>1.1.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>anaconda/3.4</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>anaconda</Name>
-      <Description />
-      <Flavor>3.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>anaconda/3.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>anaconda</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>anaconda/4.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>anaconda</Name>
-      <Description />
-      <Flavor>2.7</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>anaconda/2.7</HandleKey>
+        <HandleKey>BICseq/1.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7825,6 +8072,97 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>openbugs/3.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trinity</Name>
+      <Description>Package for RNA-Seq de novo Assembly</Description>
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trinity/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trinity</Name>
+      <Description>Package for RNA-Seq de novo Assembly</Description>
+      <Flavor>2.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trinity/2.0</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trinity</Name>
+      <Description>Package for RNA-Seq de novo Assembly</Description>
+      <Flavor>r2013-11-10</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trinity/r2013-11-10</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trinity</Name>
+      <Description>Package for RNA-Seq de novo Assembly</Description>
+      <Flavor>r2014-04-13p1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trinity/r2014-04-13p1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trinity</Name>
+      <Description>Trinity assembles transcript sequences from Illumina RNA-Seq data.</Description>
+      <Flavor>2.4.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trinity/2.4</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trinity</Name>
+      <Description>Package for RNA-Seq de novo Assembly</Description>
+      <Flavor>r2013-02-25</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trinity/r2013-02-25</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime</Domain>
+      <Name>cplex</Name>
+      <Description>CPLEX - High-performance mathematical programming solver for linear programming, mixed integer programming, and quadratic programming.</Description>
+      <Flavor>12.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cplex/12.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7855,41 +8193,15 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime</Domain>
-      <Name>cplex</Name>
-      <Description>CPLEX - High-performance mathematical programming solver for linear programming, mixed integer programming, and quadratic programming.</Description>
-      <Flavor>12.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cplex/12.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>sift4g</Name>
-      <Description>SIFT 4G is a faster version of SIFT that enables us to scale up and provide SIFT predictions for more organisms.</Description>
-      <Flavor>2.0.0</Flavor>
+      <Name>plinkseq</Name>
+      <Description>PLINK/SEQ is an open-source C/C++ library for working with human genetic variation data.</Description>
+      <Flavor>0.10</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>sift4g/2.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>snpeff</Name>
-      <Description>Genetic variant annotation and effect prediction toolbox.</Description>
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>snpeff/4.3</HandleKey>
+        <HandleKey>plinkseq/0.10</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -7960,183 +8272,27 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
+      <Domain>biological computation</Domain>
+      <Name>biopython</Name>
+      <Description>Biopython is a set of freely available tools for biological computation written in Python by an international team of developers.</Description>
+      <Flavor>1.70</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
+        <HandleKey>biopython/1.70</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/intel/11</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/open64/4.5</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/intel/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/11</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/intel/15</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/14</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/15</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>csaw</Name>
-      <Description>Detection of differentially bound regions in ChIP-seq data with sliding windows, with methods for normalization and proper FDR control.</Description>
-      <Flavor>1.4</Flavor>
+      <Name>idr</Name>
+      <Description>The IDR (Irreproducible Discovery Rate) framework is a uni&#239;&#172;&#129;ed approach to measure the reproducibility of &#239;&#172;&#129;ndings identi&#239;&#172;&#129;ed from replicate experiments and provide highly stable thresholds based on reproducibility.</Description>
+      <Flavor>2.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>csaw/1.4</HandleKey>
+        <HandleKey>idr/2.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -8220,170 +8376,40 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>trinity</Name>
-      <Description>Package for RNA-Seq de novo Assembly</Description>
-      <Flavor>2.1</Flavor>
+      <Domain>Utilities</Domain>
+      <Name>automake</Name>
+      <Description>Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.</Description>
+      <Flavor>1.15</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>trinity/2.1</HandleKey>
+        <HandleKey>automake/1.15</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.8</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>trinity</Name>
-      <Description>Package for RNA-Seq de novo Assembly</Description>
-      <Flavor>2.0</Flavor>
+      <Domain>Utilities</Domain>
+      <Name>automake</Name>
+      <Description>Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.</Description>
+      <Flavor>1.14</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>trinity/2.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>trinity</Name>
-      <Description>Package for RNA-Seq de novo Assembly</Description>
-      <Flavor>r2013-11-10</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>trinity/r2013-11-10</HandleKey>
+        <HandleKey>automake/1.14</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>trinity</Name>
-      <Description>Package for RNA-Seq de novo Assembly</Description>
-      <Flavor>r2014-04-13p1</Flavor>
+      <Name>csaw</Name>
+      <Description>Detection of differentially bound regions in ChIP-seq data with sliding windows, with methods for normalization and proper FDR control.</Description>
+      <Flavor>1.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>trinity/r2014-04-13p1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>trinity</Name>
-      <Description>Trinity assembles transcript sequences from Illumina RNA-Seq data.</Description>
-      <Flavor>2.4.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>trinity/2.4</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>trinity</Name>
-      <Description>Package for RNA-Seq de novo Assembly</Description>
-      <Flavor>r2013-02-25</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>trinity/r2013-02-25</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>0.12.8</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>bowtie/0.12.8</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>1.0.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>bowtie/1.0.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>0.12.9</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>bowtie/0.12.9</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>1.1.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>bowtie/1.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>2.2.6</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>bowtie/2.2</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>2.1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>bowtie/2.1.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>2.0.0-beta6</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>bowtie/2.0.0-beta6</HandleKey>
+        <HandleKey>csaw/1.4</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -8441,32 +8467,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>biology</Domain>
-      <Name>r-vcfr</Name>
-      <Description>A package to manipulate and visualize VCF data in R.</Description>
-      <Flavor>1.5.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>r-vcfr/1.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>network</Domain>
-      <Name>curl</Name>
-      <Description />
-      <Flavor>7.50</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>curl/7.50</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>phobius</Name>
       <Description>Phobius is a combined transmembrane topology and signal peptide predictor.</Description>
@@ -8481,13 +8481,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>plinkseq</Name>
-      <Description>PLINK/SEQ is an open-source C/C++ library for working with human genetic variation data.</Description>
-      <Flavor>0.10</Flavor>
+      <Name>targetfinder</Name>
+      <Description>Plant small RNA target prediction tool.</Description>
+      <Flavor>1.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>plinkseq/0.10</HandleKey>
+        <HandleKey>targetfinder/1.7</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -8507,13 +8507,39 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>mutect</Name>
-      <Description>MuTect is a method developed at the Broad Institute for the reliable and accurate identification of somatic point mutations in next generation sequencing data of cancer genomes.</Description>
-      <Flavor>1.1</Flavor>
+      <Name>sift4g</Name>
+      <Description>SIFT 4G is a faster version of SIFT that enables us to scale up and provide SIFT predictions for more organisms.</Description>
+      <Flavor>2.0.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>mutect/1.1</HandleKey>
+        <HandleKey>sift4g/2.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Utilities</Domain>
+      <Name>autoconf</Name>
+      <Description>Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.</Description>
+      <Flavor>2.69</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>autoconf/2.69</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>humann2</Name>
+      <Description>HUMAnN2 is the next generation of HUMAnN (HMP Unified Metabolic Analysis Network).</Description>
+      <Flavor>0.9.9</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>humann2/0.9</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -8584,32 +8610,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>humann2</Name>
-      <Description>HUMAnN2 is the next generation of HUMAnN (HMP Unified Metabolic Analysis Network).</Description>
-      <Flavor>0.9.9</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>humann2/0.9</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>snptest</Name>
-      <Description>SNPTEST is a program for the analysis of single SNP association in genome-wide studies.</Description>
-      <Flavor>2.5.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>snptest/2.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>system</Domain>
       <Name>lftp</Name>
       <Description>LFTP is a sophisticated file transfer program supporting a number of network protocols (ftp, http, sftp, fish, torrent).</Description>
@@ -8618,6 +8618,84 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>lftp/4.8</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>mathematics</Domain>
+      <Name>theano</Name>
+      <Description>Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.</Description>
+      <Flavor>0.9.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>theano/py36/0.9</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>mathematics</Domain>
+      <Name>theano</Name>
+      <Description>Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.</Description>
+      <Flavor>0.9.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>theano/py27/0.9</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trinotate</Name>
+      <Description>Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms.</Description>
+      <Flavor>2.0.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trinotate/2.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>biopieces</Name>
+      <Description>The Biopieces are a collection of bioinformatics tools that can be pieced together in a very easy and flexible manner to perform both simple and complex tasks.</Description>
+      <Flavor>1.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>biopieces/1.0</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>compiler/open64</Name>
+      <Description />
+      <Flavor>4.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>compiler/open64/4.5</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>cexor</Name>
+      <Description>An R package to uncover high-resolution protein-DNA interactions in ChIP-exo replicates.</Description>
+      <Flavor>1.10</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cexor/1.10</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -8662,45 +8740,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>compiler/open64</Name>
-      <Description />
-      <Flavor>4.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>compiler/open64/4.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>trinotate</Name>
-      <Description>Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms.</Description>
-      <Flavor>2.0.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>trinotate/2.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>cexor</Name>
-      <Description>An R package to uncover high-resolution protein-DNA interactions in ChIP-exo replicates.</Description>
-      <Flavor>1.10</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cexor/1.10</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>pyclone</Name>
       <Description>PyClone is statistical model and software tool designed to infer the prevalence of point mutations in heterogeneous cancer samples.</Description>
@@ -8737,123 +8776,6 @@
         <HandleKey>sage/8.0</HandleKey>
       </Handle>
       <Context>compiler/gcc/5.4</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>salmon</Name>
-      <Description>Highly-accurate &amp; wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments.</Description>
-      <Flavor>0.6.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>salmon/0.6</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>salmon</Name>
-      <Description>Highly-accurate &amp; wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments.</Description>
-      <Flavor>0.8.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>salmon/0.8</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>tensorflow</Name>
-      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.0.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py35/1.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>tensorflow</Name>
-      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.3.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py35/1.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>tensorflow</Name>
-      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>0.12.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py35/0.12</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>tensorflow</Name>
-      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>0.12.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py27/0.12</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>tensorflow</Name>
-      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.3.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py27/1.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>tensorflow</Name>
-      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.0.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py27/1.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>tensorflow</Name>
-      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.3.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py36/1.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -8961,27 +8883,118 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>mathematics</Domain>
-      <Name>theano</Name>
-      <Description>Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.</Description>
-      <Flavor>0.9.0</Flavor>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>1.0.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>theano/py36/0.9</HandleKey>
+        <HandleKey>tensorflow/py35/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>mathematics</Domain>
-      <Name>theano</Name>
-      <Description>Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.</Description>
-      <Flavor>0.9.0</Flavor>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>1.3.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>theano/py27/0.9</HandleKey>
+        <HandleKey>tensorflow/py35/1.3</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>0.12.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tensorflow/py35/0.12</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>0.12.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tensorflow/py27/0.12</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>1.3.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tensorflow/py27/1.3</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>1.0.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tensorflow/py27/1.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>1.3.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tensorflow/py36/1.3</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>scythe</Name>
+      <Description>Scythe - A Bayesian adapter trimmer.</Description>
+      <Flavor>0.991</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>scythe/0.991</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>tabix</Name>
+      <Description>Tabix indexes a TAB-delimited genome position file in.tab.bgz and creates an index file.</Description>
+      <Flavor>0.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tabix/0.2</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -9014,19 +9027,6 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>scythe</Name>
-      <Description>Scythe - A Bayesian adapter trimmer.</Description>
-      <Flavor>0.991</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>scythe/0.991</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
       <Name>gromacs</Name>
       <Description>GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles.</Description>
       <Flavor>5.1.4</Flavor>
@@ -9053,6 +9053,19 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
+      <Name>phonopy</Name>
+      <Description />
+      <Flavor>1.11.12</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phonopy/1.11</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
       <Name>gamess</Name>
       <Description />
       <Flavor>20141205R1</Flavor>
@@ -9066,28 +9079,28 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>metaphlan</Name>
-      <Description>MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data.</Description>
-      <Flavor>1.7</Flavor>
+      <Name>ray</Name>
+      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
+      <Flavor>2.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>metaphlan/1.7</HandleKey>
+        <HandleKey>ray/2.3</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>metagenomic phylogenetic analysis</Domain>
-      <Name>metaphlan</Name>
-      <Description>MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data.</Description>
-      <Flavor>2.6.0</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>ray</Name>
+      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
+      <Flavor>2.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>metaphlan/2.6</HandleKey>
+        <HandleKey>ray/2.3</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
