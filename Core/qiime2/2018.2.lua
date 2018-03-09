@@ -14,8 +14,10 @@ whatis("Description: QIIME 2 is a powerful, extensible, and decentralized microb
 
 pushenv("CONDA_DEFAULT_ENV","qiime2-2018.2")
 prepend_path{"PATH","/util/opt/BCRF/conda-envs/qiime2-2018.2/bin",priority=100}
++setenv("MPLBACKEND","Agg")
 
 -- The q2cli package (via click) creates a cache on first run.  By default, this is ~/.config
 -- If the first run is on a worker, this will fail.  Setting this var tells it to cache to
 -- $WORK/.config instead.
 setenv("XDG_CONFIG_HOME",pathJoin(os.getenv("WORK"),".config"))
+execute {cmd="source /util/opt/BCRF/conda-envs/qiime2-2018.2/bin/tab-qiime",modeA={"load"}}
