@@ -23,7 +23,10 @@ prepend_path("PATH",                "/util/opt/openmpi/2.1/pgi/15/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/openmpi/2.1/pgi/15/lib")
 prepend_path("MANPATH",             "/util/opt/openmpi/2.1/pgi/15/share/man")
 prepend_path("INCLUDE",             "/util/opt/openmpi/2.1/pgi/15/include")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/MPI/pgi/15/openmpi/2.1")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"MPI","pgi","15","openmpi","2.1")
+prepend_path("MODULEPATH",          mdir)
 
 family("mpi")
 

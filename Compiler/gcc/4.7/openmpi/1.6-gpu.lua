@@ -23,7 +23,10 @@ prepend_path("PATH",                "/util/opt/openmpi/1.6/gcc/4.7-gpu/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/openmpi/1.6/gcc/4.7-gpu/lib")
 prepend_path("MANPATH",             "/util/opt/openmpi/1.6/gcc/4.7-gpu/share/man")
 prepend_path("INCLUDE",             "/util/opt/openmpi/1.6/gcc/4.7-gpu/include")
-prepend_path("MODULEPATH",	    "/util/opt/modulefiles/MPI/gcc/4.7-gpu/openmpi/1.6")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"MPI","gcc","4.7-gpu","openmpi","1.6")
+prepend_path("MODULEPATH",          mdir)
 
 family("mpi")
 
