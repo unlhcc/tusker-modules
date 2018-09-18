@@ -1,6 +1,6 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-09-18T19:24:36Z" UniqueID="localsoft4.runner-ca46ac4d-project-481-concurrent-0.tacc.xsede.org">
-    <ResourceID>runner-ca46ac4d-project-481-concurrent-0.tacc.xsede.org</ResourceID>
+  <RPSoftwareList Timestamp="2018-09-18T20:58:47Z" UniqueID="localsoft4.runner-2210a532-project-481-concurrent-0.tacc.xsede.org">
+    <ResourceID>runner-2210a532-project-481-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
       <Type>application</Type>
@@ -4095,7 +4095,7 @@
         <HandleType>module</HandleType>
         <HandleKey>boost/1.66</HandleKey>
       </Handle>
-      <Context>compiler/gcc/7.1</Context>
+      <Context>compiler/gcc/8.2</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -4160,7 +4160,20 @@
         <HandleType>module</HandleType>
         <HandleKey>boost/1.61</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/intel/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>System Environment/Base</Domain>
+      <Name>boost</Name>
+      <Description>Boost provides free peer-reviewed portable C++ source libraries.</Description>
+      <Flavor>1.66</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>boost/1.66</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/7.1</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -4186,7 +4199,7 @@
         <HandleType>module</HandleType>
         <HandleKey>boost/1.61</HandleKey>
       </Handle>
-      <Context>compiler/intel/13</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
